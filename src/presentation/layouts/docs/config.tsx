@@ -6,7 +6,11 @@ const config: DocsThemeConfig = {
   project: {
     link: "https://github.com/shuding/nextra"
   },
-  i18n: LOCALES.map((item) => ({ locale: item.identifier, direction: item.direction, name: item.name }))
+  i18n: LOCALES.map((item) => ({
+    locale: item.identifier,
+    direction: item.direction,
+    name: item.name
+  }))
   // ... other theme options
 };
 

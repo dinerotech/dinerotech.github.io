@@ -3,8 +3,7 @@ import nextra from "nextra";
 import { LOCALE_IDENS, DEFAULT_LOCALE_IDEN } from "@/domain/locale/constants";
 
 const withNextra = nextra({
-  
-  theme: "./src/presentation/themes/custom.tsx"
+  theme: "./src/presentation/theme/view.tsx"
 });
 
 const nextConfig: NextConfig = {

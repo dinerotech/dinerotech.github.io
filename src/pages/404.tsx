@@ -1,5 +1,6 @@
 import React from "react";
+import View from "@/presentation/404/view";
 
-export default function View() {
-  return <div>not found!!</div>;
+export default function Page() {
+  return <View />;
 }

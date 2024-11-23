@@ -1,4 +1,4 @@
-export default interface LocalePto {
+export interface LocalePto {
   identifier: string;
   name: string;
   direction: "ltr" | "rtl";

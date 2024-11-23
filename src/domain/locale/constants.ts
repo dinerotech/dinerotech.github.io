@@ -1,4 +1,4 @@
-import LocalePto from "./locale";
+import { LocalePto } from "./ptos";
 
 export const LOCALES: LocalePto[] = [
   {
@@ -13,7 +13,7 @@ export const LOCALES: LocalePto[] = [
   }
 ];
 
-export const LOCALE_IDENS: string[] = LOCALES.map(item => item.identifier)
+export const LOCALE_IDENS: string[] = LOCALES.map((item) => item.identifier);
 
 export const DEFAULT_LOCALE: LocalePto = LOCALES[0];
 
