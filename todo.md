@@ -83,17 +83,25 @@
 - forms structure                   [DONE]
 - collections structure             [DONE]
 - single-types structure            [DONE]
-- nextjs from scratch               []
-- technical questions:
-    - merge nextra with app router  []
-    - 
+- nextjs from scratch               [DONE]
+- technical tasks:
+    - merge nextra with app router  [DONE]
+    - fix the meta.json             [DONE]
+    - fix blog and docs pageOps     [DONE]
+
+
+## 11/18
+- break
+
+## 11/19
+- technical tasks:
+    - localize docs and blog        []
+- nvabar                            []
 <!-- - about us
     - timeline                      []
     - leadership letter             []
     - call to action                [] -->
 
-## 11/18
-## 11/19
 ## 11/20
 ## 11/21
 ## 11/22
@@ -105,4 +113,7 @@
 - 404                              [PARTIAL]
 
 ## Daily:
-- about us header
+- 404 fixed.
+- locale urls done.
+- docs and blog integration.
+- custom localization for 404.tsx (cookies or url).
