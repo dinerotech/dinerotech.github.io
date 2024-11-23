@@ -1,0 +1,349 @@
+- home:
+  - nav:
+    - primary:
+      - products:
+        - payments              # /products#payments
+        - onboarding            # /products#onboarding
+        - invoicing             # /products#invoicing
+        - dashboard             # /products#dashboard
+        - plugins               # /products#plugins
+        - pricing               # /pricing            # form page
+      - solutions:
+        # By stage
+        - startups              # /solutions#startups
+        - enterprises           # /solutions#enterprises
+        # By business model
+        - saas                  # /solutions#saas
+        - e-commerce            # /solutions#e-commerce
+        - nonprofit             # /solutions#non-profit
+        # actual usecases from clients
+        - usecases              # /usecases
+      - developers:
+        # top section 
+        - plugins               # /docs/plugins
+        - get started           # /docs/get-started
+        - guides                # /docs/guides
+        # bottom section
+        - full api reference    # /api/docs
+        - changelog reference   # /docs/changelog
+        - api status            # /api/status         # example: https://status.stripe.com/
+      - resources:
+        # top section
+        - support center        # /support
+        - blog                  # /blog
+        - customer stories      # /customers
+        - contact sales         # /contact-sales      # form page
+        - become a partner      # /partners           # form page
+        # bottom section
+        - press                 # /press
+        - newsletter            # /newsletter         # form page
+        - jobs                  # /jobs
+        - contact us            # /contact-us
+        - privacy policy        # /privacy-policy
+        - terms of use          # /terms-of-use
+      - about us:
+    - secondary:
+      - language picker         # cookie
+      - sign in                 # external link: https://dashboard.dineropay.com/
+      - contact-sales           # contact-sales
+  - sections:
+    - hero section:
+      - cta small
+      - headline
+      - supporting text
+      - side:
+        - laptop + mobile
+      - actions:
+        - join us               # /test-account
+        - learn more            # /products
+    - logo cloud section
+    - solutions section:
+      - headline
+      - supporting text
+      - side:
+        - animation (modular components)            # example: strip.com
+    - products section:
+      - headline
+      - supporting text
+      - side:
+        - mobile phone with payment
+    - stats section:
+      - headline
+      - supporting text
+      - stats:
+        - api calls
+        - status
+        - precentage of usage within ksa
+        - payment methods supported
+    - blog section:
+      - headline
+      - supporting text
+      - latest post
+    - cta section:
+      - headline
+      - contact sales
+      - join newsletter
+    - footer section:
+      - side:
+        - logo 002
+        - supporting text
+        - socials:
+          - twitter
+          - linkedin
+      - products:
+        - payments
+        - onboarding
+        - invoicing
+        - dashboard
+        - plugins
+        - pricing
+      - solutions:
+        - startups
+        - enterprises
+        - saas
+        - e-commerce
+        - nonprofit
+        - usecases
+      - developers:
+        - plugins
+        - get started
+        - guides
+        - full api reference
+        - changelog reference
+        - api status
+      - resources:
+        - support center
+        - blog
+        - customer stories
+        - contact sales
+        - become a partner
+        - press
+        - newsletter
+        - jobs
+        - contact us
+        - about us
+        - privacy policy
+        - terms of use
+
+- pages [to be planned]:
+  - usecases
+  - developers
+  - blog
+  - customer stories
+  - job page (or dynamic rendered)
+  
+- pages:
+  # 
+  - products:
+    - payments section:
+      - headline
+      - supporting text
+      - animated image
+    - onboarding section:
+      - headline
+      - supporting text
+      - animated image
+    - invoicing section:
+      - headline
+      - supporting text
+      - animated image
+    - dashboard section:
+      - headline
+      - supporting text
+      - animated image
+    - plugins section:
+      - headline
+      - supporting text
+      - animated image
+    - cta section:
+      - request pricing
+    - footer section
+  - pricing:
+    - request pricing form
+  # 
+  - solutions:
+    - startups
+    - enterprises
+    - saas
+    - e-commerce
+    - nonprofit
+    - cta section:
+      - read uscases
+  - usecases
+  # 
+  - developers
+  # 
+  - support center:
+    - faqs section:
+      - sorting panel
+      - articles
+    - footer section
+  - blog
+  - customer stories
+  - become partner:
+    - hero section:
+      - headline
+      - supporting text
+    - our goal section:
+      - headline
+      - bullet points
+    - logo cloud section:
+    - form section
+    - footer section
+  - press:
+    - list of articles:
+      - title
+      - summary
+      - image if any
+    - pager section
+    - footer section
+  - newsletter:
+    - hero section:
+      - headline
+      - newsletter form
+    - footer section
+  - jobs:
+    - hero section:
+      - headline
+      - supporting text
+      - multiple photos
+    - job listing section:
+      - job page (or dynamic rendered)       
+    - footer section
+  - contact us:
+    - hero section:
+       - headline
+       - supporting text
+       - office image
+    - contact section
+    - footer section
+  # 
+  - about us:
+    - hero section:
+      - headline
+      - supporting text
+    - our mission section:
+      - headline
+    - our values:
+      - bullet points
+    - timeline section
+    - from our CEO section:
+      - photo
+      - message
+      - signature
+    - team section:
+      - team list:
+        - photo
+        - name/title
+        - message
+    - cta section:
+      - headline
+      - supporting text
+      - action:
+        - join our team           # /jobs
+    - footer section
+
+
+
+- forms:
+  - pricing:
+    - contents:
+      - fullname
+      - email
+      - phone number
+      - preferred lang
+      - notes
+  - contact sales:
+    - contents:
+      - step 1:
+        - work email
+        - preferred lang
+      - step 2:
+        - annual budget
+      - step 3:
+        - number of employees (step 3)
+      - step 4:
+        - fullname
+        - phone number
+        - company website
+        - job level
+        - notes (anything else)
+        - get emails (newsletter option)
+  - newsletter:
+    - contents:
+      - fullname
+      - email
+  - become a partner:
+    - contents:
+      - step 1:
+        - email
+        - institute name
+      - step 2:
+        - fullname
+        - phone number
+        - job level
+        - notes
+        - get emails (newsletter option)
+  - resume:
+    - contents:
+      - job channel
+      - fullname
+      - email
+      - resume
+      - notes (anything else)
+      - get emails (newsletter option)
+
+  - test account:
+    - contents:
+      - fullname
+      - email
+      - merchant name
+      - merchant logo
+      - get emails (newsletter option)
+
+- collections:
+  - jobs
+  - blog articles
+  - usecases
+  - customer stories
+
+- single-types:
+  - home:
+    - hero:
+      - headline
+      - supporting text
+      - cta small:
+        - label
+        - action:
+          - text
+          - href
+    - logo cloud:
+      - logos
+    - solutions:
+      - headline
+      - supporting text
+    - products:
+      - headline
+      - supporting text
+    - stats section:
+      - headline
+      - supporting text
+      - stats:
+        - api calls
+        - status
+        - precentage of usage within ksa
+        - payment methods supported
+    - blog section:
+      - headline
+      - supporting text
+      - selected article
+      
+  - banner:
+    - shown
+    - headline
+    - description
+    - action:
+      - label
+      - href
+    
+        
