@@ -1,0 +1,25 @@
+{
+  "title": "DineroPay | Empowering Your Payments, Driving Digital Transformation",
+  "description": "DineroPay powers Saudi’s gateway for secure, seamless payments – accept transactions, manage payouts, and streamline financial operations with powerful APIs and intuitive tools.",
+  "home": {
+    "greatNews": "Great news!",
+    "tabbySupported": "We now support Tabby for easy, flexible payments. Read More",
+    "signIn": "Sign in",
+    "products": "Products",
+    "developers": "Developers",
+    "partners": "Partners",
+    "blog": "Blog",
+    "solutions": "Solutions",
+    "contactSales": "Contact sales",
+    "aboutUs": "About us",
+    "closeMenu": "Close menu",
+    "openMenu": "Open menu",
+    "slogan": "Simplifying Payments to Grow Your Business",
+    "sloganDescription": "Secure and Reliable Payment Solutions to Empower Your Business Success in the Kingdom.",
+    "contactUs": "Contact us",
+    "learnMore": "Learn more",
+    "wereHiring": "We're hiring",
+    "seeOpenPositions": "See open positions",
+    "joinUs": "Join us"
+  }
+}
