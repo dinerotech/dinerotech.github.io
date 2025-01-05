@@ -72,8 +72,8 @@
       - supporting text
       - stats:
         - api calls
-        - status
-        - precentage of usage within ksa
+        # - status
+        # - precentage of usage within ksa
         - payment methods supported
     - blog section:
       - headline

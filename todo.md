@@ -112,6 +112,23 @@
 - finalize localization            [DONE]
 - 404                              [PARTIAL]
 
+
+## 25.01.04
+- navbar                            [DONE]
+- banner                            [DONE]
+- hero                              [DONE]
+
+## 25.01.04
+- logo cloud                        [DONE]
+- solution section                  [PARTIAL]
+- products section                  [PARTIAL]
+- stats section                     [DONE]
+- blog section                      [DONE]
+- cta section                       [DONE]
+- footer                            [DONE]
+- about page                        []
+- jobs page                         []
+
 ## Daily:
 - 404 fixed.
 - locale urls done.

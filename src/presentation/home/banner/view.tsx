@@ -8,13 +8,19 @@ export interface ViewProps {
   title: string;
   description: string;
   actionHref: string;
+  enabled?: boolean;
 }
 
-export default function View({ title, description, actionHref }: ViewProps) {
+export default function View({
+  title,
+  description,
+  actionHref,
+  enabled
+}: ViewProps) {
   const { onHide, isHidden } = useViewModel();
   const { locale } = React.useContext(LocaleContext);
 
-  if (isHidden) return;
+  if (isHidden || enabled !== true) return;
 
   return (
     <div className="flex items-center gap-x-6 bg-gray-900 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">

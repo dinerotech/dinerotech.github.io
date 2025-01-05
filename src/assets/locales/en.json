@@ -2,8 +2,6 @@
   "title": "DineroPay | Empowering Your Payments, Driving Digital Transformation",
   "description": "DineroPay powers Saudi’s gateway for secure, seamless payments – accept transactions, manage payouts, and streamline financial operations with powerful APIs and intuitive tools.",
   "home": {
-    "greatNews": "Great news!",
-    "tabbySupported": "We now support Tabby for easy, flexible payments. Read More",
     "signIn": "Sign in",
     "products": "Products",
     "developers": "Developers",
@@ -20,6 +18,86 @@
     "learnMore": "Learn more",
     "wereHiring": "We're hiring",
     "seeOpenPositions": "See open positions",
-    "joinUs": "Join us"
+    "joinUs": "Join us",
+    "trustedByTeams": "Trusted by the most innovative teams",
+    "getStarted": "Get started",
+    "resources": "Resources",
+    "copyrights": "DineroPay, Inc. All rights reserved.",
+    "paymentsMethods": "Payment Methods",
+    "invoicing": "Invoicing",
+    "dashboard": "Dashboard",
+    "onboarding": "Onboarding",
+    "pricing": "Pricing",
+    "startups": "Startups",
+    "enterprises": "Enterprises",
+    "saas": "SaaS",
+    "ecommerce": "E-Commerce",
+    "nonprofit": "Nonprofit",
+    "guides": "Guides",
+    "plugins": "Plugins",
+    "integration": "Integration",
+    "APIReference": "API Reference",
+    "faqs": "FAQs",
+    "customerStories": "Customer Stories",
+    "becomeAPartner": "Become a Partner",
+    "jobs": "Jobs",
+    "privacyPolicy": "Privacy Policy",
+    "solutionsSection": {
+      "title": "Tailored Payment Solutions to Drive Growth",
+      "tagline": "From Startups to Enterprises, We've Got You Covered",
+      "description": "Our platform is built to meet the unique needs of different industries. Whether you're a startup looking to scale, an enterprise optimizing operations, a SaaS business integrating subscriptions, an e-commerce store increasing conversions, or a nonprofit streamlining donations — we’ve got you covered with secure, seamless payment solutions.",
+      "cta": "Learn more"
+    },
+    "banner": {
+      "title": "Great news!",
+      "description": "We now support Tabby for easy, flexible payments. Read More"
+    },
+    "productsSection": {
+      "title": "Effortless Payments",
+      "tagline": "Everything you need to power secure, seamless transactions.",
+      "section1": {
+        "title": "Mobile-Friendly Payments",
+        "description": "Deliver a smooth checkout experience optimized for mobile users. Whether your customers are on smartphones or tablets, our solution ensures fast, reliable, and user-friendly payments."
+      },
+      "section2": {
+        "title": "Secure Payments",
+        "description": "Protect your customers and business with end-to-end encryption, fraud detection, and PCI DSS compliance. Our platform ensures every transaction is safe, secure, and fully compliant with global standards."
+      },
+      "section3": {
+        "title": "Available Payment Methods",
+        "description": "Offer your customers multiple payment methods, including credit cards, digital wallets, and local payment options. Our platform ensures a seamless and secure checkout experience."
+      },
+      "section4": {
+        "title": "API & SDK",
+        "description": "Integrate payments quickly with our easy-to-use API and SDK. Build custom payment workflows, automate tasks, and seamlessly connect with your existing systems to scale faster."
+      }
+    },
+    "statsSection": {
+      "stats1": {
+        "counter": "10K",
+        "description": "API requests per day, peaking at 100 requests a second."
+      },
+      "stats2": {
+        "counter": "10",
+        "description": "New onboarding businesses every day."
+      },
+      "stats3": {
+        "counter": "7+",
+        "description": "Payment methods supported."
+      }
+    },
+    "blogSection": {
+      "title": "From Our Blog",
+      "subTitle": "Discover insights, strategies, and tips to help you grow your business and optimize payments.",
+      "categories": {
+        "marketing": "Marketing",
+        "developers": "Developers",
+        "management": "Management"
+      }
+    },
+    "ctaSection": {
+      "title": "Ready to Get Started?",
+      "description": "Create an account instantly to get started or contact us to design a custom package for your business."
+    }
   }
 }

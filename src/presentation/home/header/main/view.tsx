@@ -31,7 +31,7 @@ export default function View() {
                 href={`/${locale.identifier}/${item.href}`}
                 className="text-sm/6 font-semibold text-gray-900"
               >
-                {t.home[item.identifier as keyof typeof t.home]}
+                {t.home[item.identifier as keyof typeof t.home] as string}
               </Link>
             ))}
           </div>
