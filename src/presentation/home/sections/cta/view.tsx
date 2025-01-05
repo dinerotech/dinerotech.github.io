@@ -47,8 +47,8 @@ export default function View() {
         />
         <defs>
           <radialGradient id="8d958450-c69f-4251-94bc-4e091a323369">
-            <stop stopColor="#7775D6" />
-            <stop offset="1" stopColor="#E935C1" />
+            <stop stopColor="#FFFBEB" />
+            <stop offset="1" stopColor="#0EA5E9" />
           </radialGradient>
         </defs>
       </svg>

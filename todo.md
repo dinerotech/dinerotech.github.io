@@ -126,6 +126,8 @@
 - blog section                      [DONE]
 - cta section                       [DONE]
 - footer                            [DONE]
+- solutions page:
+    - hero section                  []
 - about page                        []
 - jobs page                         []
 

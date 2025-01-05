@@ -6,7 +6,7 @@ import ContainerView from "@/presentation/home/container/view";
 import BannerView from "@/presentation/home/banner/view";
 import LocaleContext from "@/presentation/common/localeProvider/client/context";
 import HeaderView from "@/presentation/home/header/main/view";
-import LogoCloudView from "@/presentation/home/logoCloud/view";
+import LogoCloudView from "@/presentation/home/logoCloud/main/view";
 import SolutionsSectionView from "@/presentation/home/sections/solutions/main/view";
 import ProductsSectionView from "@/presentation/home/sections/products/main/view";
 import StatsSectionView from "@/presentation/home/sections/stats/view";
