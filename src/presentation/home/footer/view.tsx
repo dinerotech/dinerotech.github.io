@@ -10,6 +10,8 @@ import {
 } from "@/domain/navs/constants";
 import Link from "next/link";
 import LocaleContext from "@/presentation/common/localeProvider/client/context";
+import PCISVG from "@/assets/svgs/logo-horiz.svg";
+import SAUDIPAAYMENTSSVG from "@/assets/svgs/pci.svg";
 
 export default function View() {
   const { locale, resource: t } = React.useContext(LocaleContext);
@@ -57,6 +59,14 @@ export default function View() {
                   <path d="M230.454,94.761c-24.995,0-43.472,10.745-54.679,22.954V104.73c0-2.761-2.238-5-5-5h-59.599 c-2.762,0-5,2.239-5,5v199.928c0,2.762,2.238,5,5,5h62.097c2.762,0,5-2.238,5-5v-98.918c0-33.333,9.054-46.319,32.29-46.319 c25.306,0,27.317,20.818,27.317,48.034v97.204c0,2.762,2.238,5,5,5H305c2.762,0,5-2.238,5-5V194.995 C310,145.43,300.549,94.761,230.454,94.761z"></path>
                 </svg>
               </Link>
+            </div>
+            <div className="flex gap-6 justify-start flex-wrap">
+              <Image className="h-8 w-auto" src={PCISVG} alt="pci" />
+              <Image
+                className="h-8 w-auto"
+                src={SAUDIPAAYMENTSSVG}
+                alt="saudi-payments"
+              />
             </div>
           </div>
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">

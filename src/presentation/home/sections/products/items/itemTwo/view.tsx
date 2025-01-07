@@ -1,5 +1,7 @@
 import LocaleContext from "@/presentation/common/localeProvider/client/context";
 import React from "react";
+import Image from "next/image";
+import Item2PNG from "@/assets/pngs/product_item_2.png";
 
 export default function View() {
   const { resource: t } = React.useContext(LocaleContext);
@@ -17,10 +19,10 @@ export default function View() {
           </p>
         </div>
         <div className="flex flex-1 items-center [container-type:inline-size] max-lg:py-6 lg:pb-2">
-          <img
+          <Image
             className="h-[min(152px,40cqw)] object-cover"
-            src="https://tailwindui.com/plus/img/component-images/bento-03-security.png"
-            alt=""
+            src={Item2PNG}
+            alt="security"
           />
         </div>
       </div>

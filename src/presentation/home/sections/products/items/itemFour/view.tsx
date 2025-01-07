@@ -18,18 +18,95 @@ export default function View() {
         </div>
         <div className="relative min-h-[30rem] w-full grow">
           <div className="absolute bottom-0 left-10 right-0 top-10 overflow-hidden rounded-tl-xl bg-gray-900 shadow-2xl">
-            <div className="flex bg-gray-800/40 ring-1 ring-white/5">
+            <div className="flex bg-gray-800/40 ring-1 ring-white/5" dir="ltr">
               <div className="-mb-px flex text-sm/6 font-medium text-gray-400">
                 <div className="border-b border-r border-b-white/20 border-r-white/10 bg-white/5 px-4 py-2 text-white">
-                  NotificationSetting.jsx
+                  app.js
                 </div>
                 <div className="border-r border-gray-600/10 px-4 py-2">
-                  App.jsx
+                  example.js
                 </div>
               </div>
             </div>
             <div className="px-6 pb-14 pt-6">
-              {/* <!-- Your code example --> */}
+              <pre
+                className="text-[0.8125rem]/6 text-gray-300"
+                dir="ltr"
+                style={{ tabSize: 2 }}
+              >
+                <code>
+                  <span style={{ color: "#569CD6" }}>import</span>{" "}
+                  <span style={{ color: "#9CDCFE" }}>dineropay</span>{" "}
+                  <span style={{ color: "#D4D4D4" }}>from</span>{" "}
+                  <span style={{ color: "#CE9178" }}>"dineropay"</span>;
+                  <br />
+                  <br />
+                  <span style={{ color: "#569CD6" }}>const</span>{" "}
+                  <span style={{ color: "#9CDCFE" }}>payment</span>{" "}
+                  <span style={{ color: "#D4D4D4" }}>=</span>{" "}
+                  <span style={{ color: "#569CD6" }}>new</span>{" "}
+                  <span style={{ color: "#9CDCFE" }}>dineropay</span>
+                  <span style={{ color: "#D4D4D4" }}>&#40;</span>
+                  <br />
+                  <span style={{ color: "#D4D4D4" }}>
+                    {" "}
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                  </span>
+                  <span style={{ color: "#9CDCFE" }}>redirectUrl</span>
+                  <span style={{ color: "#D4D4D4" }}>:</span>{" "}
+                  <span style={{ color: "#CE9178" }}>
+                    "https://callbackurl.com"
+                  </span>
+                  <span style={{ color: "#D4D4D4" }}>,</span>
+                  <br />
+                  <span style={{ color: "#D4D4D4" }}>
+                    {" "}
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                  </span>
+                  <span style={{ color: "#9CDCFE" }}>apiKey</span>
+                  <span style={{ color: "#D4D4D4" }}>:</span>{" "}
+                  <span style={{ color: "#CE9178" }}>"API_KEY"</span>
+                  <span style={{ color: "#D4D4D4" }}>,</span>
+                  <br />
+                  <span style={{ color: "#D4D4D4" }}>
+                    {" "}
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                  </span>
+                  <span style={{ color: "#9CDCFE" }}>failureUrl</span>
+                  <span style={{ color: "#D4D4D4" }}>:</span>{" "}
+                  <span style={{ color: "#CE9178" }}>
+                    "https://failureurl.com"
+                  </span>
+                  <br />
+                  <span style={{ color: "#D4D4D4" }}>&#41;</span>
+                  <span style={{ color: "#D4D4D4" }}>;</span>
+                  <br />
+                  <br />
+                  <span style={{ color: "#569CD6" }}>const</span>{" "}
+                  <span style={{ color: "#9CDCFE" }}>paymentUrl</span>{" "}
+                  <span style={{ color: "#D4D4D4" }}>=</span>{" "}
+                  <span style={{ color: "#9CDCFE" }}>payment</span>
+                  <span style={{ color: "#D4D4D4" }}>.</span>
+                  <span style={{ color: "#DCDCAA" }}>create</span>
+                  <span style={{ color: "#D4D4D4" }}>&#40;</span>
+                  <br />
+                  <span style={{ color: "#D4D4D4" }}>
+                    {" "}
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                  </span>
+                  <span style={{ color: "#9CDCFE" }}>amount</span>
+                  <span style={{ color: "#D4D4D4" }}>:</span>{" "}
+                  <span style={{ color: "#B5CEA8" }}>20</span>
+                  <br />
+                  <span style={{ color: "#D4D4D4" }}>&#41;</span>
+                  <span style={{ color: "#D4D4D4" }}>;</span>
+                  <br />
+                  <br />
+                  <span style={{ color: "#569CD6" }}>return</span>{" "}
+                  <span style={{ color: "#9CDCFE" }}>paymentUrl</span>
+                  <span style={{ color: "#D4D4D4" }}>;</span>
+                </code>
+              </pre>
             </div>
           </div>
         </div>

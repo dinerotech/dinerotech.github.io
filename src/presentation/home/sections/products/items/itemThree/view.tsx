@@ -1,5 +1,7 @@
 import LocaleContext from "@/presentation/common/localeProvider/client/context";
 import React from "react";
+import Image from "next/image";
+import Item3PNG from "@/assets/pngs/product_item_3.png";
 
 export default function View() {
   const { resource: t } = React.useContext(LocaleContext);
@@ -16,12 +18,8 @@ export default function View() {
             {t.home.productsSection.section3.description}
           </p>
         </div>
-        <div className="flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2">
-          <img
-            className="w-full max-lg:max-w-xs"
-            src="https://tailwindui.com/plus/img/component-images/bento-03-performance.png"
-            alt=""
-          />
+        <div className="flex flex-1 items-center justify-center px-8  max-lg:pt-10 sm:px-10 ">
+          <Image className="hw-full object-cover" src={Item3PNG} alt="" />
         </div>
       </div>
       <div className="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 max-lg:rounded-t-[2rem]"></div>
