@@ -151,6 +151,7 @@
 - privacy policy                    [ODNE]
 
 ## 25.01.09
+- skip
 
 ## Daily:
 - resources:
