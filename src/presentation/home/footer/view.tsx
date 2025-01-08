@@ -18,8 +18,8 @@ export default function View() {
   return (
     <footer className="bg-white">
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-          <div className="space-y-8">
+        <div className="xl:grid xl:grid-cols-4 xl:gap-8">
+          <div className="space-y-8 col-span-2">
             <Link href="/">
               <Image src={LogoSVG} alt="DineroPay" className="w-20" />
             </Link>
@@ -69,8 +69,8 @@ export default function View() {
               />
             </div>
           </div>
-          <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-            <div className="md:grid md:grid-cols-2 md:gap-8">
+          <div className="mt-16 grid grid-cols-3 gap-8 xl:col-span-2 xl:mt-0">
+            <div className="md:grid md:grid-cols-1 md:gap-8">
               <div>
                 <h3 className="text-sm/6 font-semibold text-gray-900">
                   {t.home.products}
@@ -92,29 +92,8 @@ export default function View() {
                   ))}
                 </ul>
               </div>
-              <div className="mt-10 md:mt-0">
-                <h3 className="text-sm/6 font-semibold text-gray-900">
-                  {t.home.solutions}
-                </h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {SOLUTION_FOOTER_NAV.map((item, index) => (
-                    <li key={index}>
-                      <Link
-                        href={`/${locale.identifier}/${item.href}`}
-                        className="text-sm/6 text-gray-600 hover:text-gray-900"
-                      >
-                        {
-                          t.home[
-                            item.identifier as keyof typeof t.home
-                          ] as string
-                        }
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
             </div>
-            <div className="md:grid md:grid-cols-2 md:gap-8">
+            <div className="md:grid md:grid-cols-1 md:gap-8">
               <div>
                 <h3 className="text-sm/6 font-semibold text-gray-900">
                   {t.home.developers}
@@ -136,7 +115,9 @@ export default function View() {
                   ))}
                 </ul>
               </div>
-              <div className="mt-10 md:mt-0">
+            </div>
+            <div className="md:grid md:grid-cols-1 md:gap-8">
+              <div>
                 <h3 className="text-sm/6 font-semibold text-gray-900">
                   {t.home.resources}
                 </h3>

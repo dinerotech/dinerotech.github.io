@@ -18,7 +18,7 @@ export default function View() {
             {t.home.productsSection.section3.description}
           </p>
         </div>
-        <div className="flex flex-1 items-center justify-center px-8  max-lg:pt-10 sm:px-10 ">
+        <div className="flex flex-1 items-center justify-center px-8 max-lg:pt-10 sm:px-10">
           <Image className="hw-full object-cover" src={Item3PNG} alt="" />
         </div>
       </div>

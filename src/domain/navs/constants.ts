@@ -5,10 +5,10 @@ export const MAIN_NAV: NavLinkPto[] = [
     identifier: "products",
     href: "products"
   },
-  {
-    identifier: "solutions",
-    href: "solutions"
-  },
+  // {
+  //   identifier: "solutions",
+  //   href: "solutions"
+  // },
   {
     identifier: "developers",
     href: "developers"
@@ -33,21 +33,21 @@ export const PRODUCT_FOOTER_NAV: NavLinkPto[] = [
     href: "products#payment-methods"
   },
   {
-    identifier: "invoicing",
-    href: "products#invoicing"
+    identifier: "onboarding",
+    href: "products#onboarding"
   },
   {
     identifier: "dashboard",
     href: "products#dashboard"
   },
   {
-    identifier: "onboarding",
-    href: "products#onboarding"
-  },
-  {
-    identifier: "pricing",
-    href: "products#pricing"
+    identifier: "platform",
+    href: "products#platform"
   }
+  // {
+  //   identifier: "pricing",
+  //   href: "products#pricing"
+  // }
 ];
 
 export const SOLUTION_FOOTER_NAV: NavLinkPto[] = [

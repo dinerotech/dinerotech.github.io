@@ -2,7 +2,7 @@ import LocaleContext from "@/presentation/common/localeProvider/client/context";
 import React from "react";
 
 export default function View() {
-  const { resource: t } = React.useContext(LocaleContext);
+  const { locale, resource: t } = React.useContext(LocaleContext);
 
   return (
     <div className="relative lg:row-span-2">
@@ -15,6 +15,17 @@ export default function View() {
           <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
             {t.home.productsSection.section4.description}
           </p>
+          <div className="mt-4 flex items-center gap-x-6">
+            <a
+              href={`${locale.identifier}/docs`}
+              className="rounded-md bg-sky-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+            >
+              {t.home.productsSection.section4.cta} &nbsp;
+              <span aria-hidden="true">
+                {locale.direction === "ltr" ? "→" : "←"}{" "}
+              </span>
+            </a>
+          </div>
         </div>
         <div className="relative min-h-[30rem] w-full grow">
           <div className="absolute bottom-0 left-10 right-0 top-10 overflow-hidden rounded-tl-xl bg-gray-900 shadow-2xl">

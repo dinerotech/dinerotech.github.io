@@ -25,6 +25,7 @@
     "copyrights": "DineroPay, Inc. All rights reserved.",
     "paymentsMethods": "Payment Methods",
     "invoicing": "Invoicing",
+    "platform": "Platform",
     "dashboard": "Dashboard",
     "onboarding": "Onboarding",
     "pricing": "Pricing",
@@ -69,7 +70,8 @@
       },
       "section4": {
         "title": "API & SDK",
-        "description": "Integrate payments quickly with our easy-to-use API and SDK. Build custom payment workflows, automate tasks, and seamlessly connect with your existing systems to scale faster."
+        "description": "Integrate payments quickly with our easy-to-use API and SDK. Build custom payment workflows, automate tasks, and seamlessly connect with your existing systems to scale faster.",
+        "cta": "Check the Documentation"
       }
     },
     "statsSection": {
@@ -98,6 +100,58 @@
     "ctaSection": {
       "title": "Ready to Get Started?",
       "description": "Create an account instantly to get started or contact us to design a custom package for your business."
+    }
+  },
+  "products": {
+    "heroSection": {
+      "title": "A Streamlined Payment Platform for All Your Needs",
+      "subtitle": "Power your business with fast, secure, and flexible payment solutions.",
+      "cta": "Learn more"
+    },
+    "paymentsSection": {
+      "title": "Support Various Payment Methods in Saudi Arabia",
+      "description": "Expand your business reach by enabling seamless transactions through cards, wallets, and Mada support, tailored for the Saudi market."
+    },
+    "onboardingSection": {
+      "title": "Fully Automated Merchant Onboarding",
+      "tagline": "Onboard in Minutes",
+      "description": "No more waiting for days to get approved. Our fully automated system ensures merchants are verified and approved within minutes, not days. From registration to verification, everything is handled automatically without manual intervention. Help merchants start accepting payments quickly and grow their business without delays."
+    },
+    "dashboardSection": {
+      "title": "All Your Payment Insights in One Place",
+      "tagline": "Know. Act. Grow.",
+      "description": "Our powerful dashboard gives you real-time insights into your transactions, payouts, and customer activity. Make data-driven decisions to optimize your business and stay ahead of the curve.",
+      "quote": "With our dashboard, businesses get full visibility into their payments and customer activity. It’s designed to simplify financial management and help businesses grow with data-driven decisions."
+    },
+    "othersSection": {
+      "title": "The All-in-One Platform for Your Business",
+      "tagline": "Everything You Need",
+      "description": "Simplify your operations with a platform that handles everything — from payments to invoicing, insights, and security — all in one place.",
+      "points": [
+        {
+          "title": "Payments Made Simple",
+          "description": "Accept payments securely from cards, wallets, and more with a fully integrated solution."
+        },
+        {
+          "title": "Smart Invoicing",
+          "description": "Generate and send invoices automatically, reducing manual work and improving cash flow."
+        },
+        {
+          "title": "Mobile Friendly",
+          "description": "Access your dashboard and manage your business on the go with a fully responsive platform."
+        },
+        {
+          "title": "Built-In Security",
+          "description": "Protect your transactions with advanced security measures and compliance standards."
+        }
+      ]
+    },
+    "pluginsSection": {
+      "title": "Connect Your Store, Anywhere"
+    },
+    "ctaSection": {
+      "title1": "Ready to get started?",
+      "title2": "Let's make your business thrive."
     }
   }
 }

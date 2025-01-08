@@ -131,7 +131,40 @@
 - about page                        []
 - jobs page                         []
 
+
+## 25.01.08
+- home page:
+    - dev section                   [SKIPPED]
+    - know more / products section  [DONE]
+- products page:
+    - header                        [DONE]
+    - hero                          [DONE]
+    - payment methods section       [DONE]
+    - onboarding section            [DONE]
+    - dashboard section             [DONE]
+    - platform section              [DONE]
+    - plugins section               [DONE]
+    - cta section                   [DONE]
+    - footer                        [DONE]
+- make photos as placeholder (yahya)[DONE]
+- solutions page                    [DROPPED]
+- privacy policy                    [ODNE]
+
+## 25.01.09
+
 ## Daily:
+- resources:
+    - about us
+    - faqs
+    - jobs
+    - privacy-policy
+    - form pages:
+        - contact sales
+        - become a partner
+        - test account
+    - specialized:
+        - blog
+        - docs
 - 404 fixed.
 - locale urls done.
 - docs and blog integration.

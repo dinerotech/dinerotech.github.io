@@ -32,6 +32,7 @@ export interface LocaleResourcePto {
     copyrights: string;
     paymentsMethods: string;
     invoicing: string;
+    platform: string;
     dashboard: string;
     onboarding: string;
     pricing: string;
@@ -78,6 +79,7 @@ export interface LocaleResourcePto {
       section4: {
         title: string;
         description: string;
+        cta: string;
       };
     };
     statsSection: {
@@ -106,6 +108,44 @@ export interface LocaleResourcePto {
     ctaSection: {
       title: string;
       description: string;
+    };
+  };
+  products: {
+    heroSection: {
+      title: string;
+      subtitle: string;
+      cta: string;
+    };
+    paymentsSection: {
+      title: string;
+      description: string;
+    };
+    onboardingSection: {
+      title: string;
+      tagline: string;
+      description: string;
+    };
+    dashboardSection: {
+      title: string;
+      tagline: string;
+      description: string;
+      quote: string;
+    };
+    othersSection: {
+      title: string;
+      tagline: string;
+      description: string;
+      points: {
+        title: string;
+        description: string;
+      }[];
+    };
+    pluginsSection: {
+      title: string;
+    };
+    ctaSection: {
+      title1: string;
+      title2: string;
     };
   };
 }
