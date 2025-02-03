@@ -5,6 +5,7 @@ import LocaleContext from "@/presentation/common/localeProvider/client/context";
 import HeaderView from "@/presentation/aboutUs/header/main/view";
 import HeroView from "@/presentation/aboutUs/hero/view";
 import ContainerView from "@/presentation/aboutUs/container/view";
+import FooterView from "@/presentation/home/footer/view";
 
 export default function View() {
   const { resource: t } = React.useContext(LocaleContext);
@@ -20,6 +21,7 @@ export default function View() {
       <ContainerView>
         <HeroView />
       </ContainerView>
+      <FooterView />
     </main>
   );
 }

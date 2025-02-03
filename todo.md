@@ -153,6 +153,18 @@
 ## 25.01.09
 - skip
 
+## 25.02.03
+- about us page:
+    - header                        [DONE]
+    - hero                          [DONE]
+    - our mission section
+    - our values section
+    - timeline section
+    - from the CEO section
+    - team section
+    - cta section
+    - footer
+
 ## Daily:
 - resources:
     - about us
