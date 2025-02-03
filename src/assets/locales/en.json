@@ -153,5 +153,11 @@
       "title1": "Ready to get started?",
       "title2": "Let's make your business thrive."
     }
+  },
+  "aboutUs": {
+    "heroSection": {
+      "title": "Empowering Payments, Simplifying Transactions",
+      "subtitle": "Dineropay is redefining digital payments, making financial transactions faster, safer, and more accessible for everyone."
+    }
   }
 }

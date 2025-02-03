@@ -10,6 +10,7 @@ export interface LocaleResourcePto {
   home: {
     signIn: string;
     products: string;
+    aboutUs: string;
     developers: string;
     partners: string;
     blog: string;
@@ -146,6 +147,12 @@ export interface LocaleResourcePto {
     ctaSection: {
       title1: string;
       title2: string;
+    };
+  };
+  aboutUs: {
+    heroSection: {
+      title: string;
+      subtitle: string;
     };
   };
 }
