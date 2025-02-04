@@ -24,7 +24,6 @@ export default function View() {
             Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
             sed turpis id.
           </p>
-          
         </div>
       </div>
     </article>
