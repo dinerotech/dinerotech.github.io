@@ -42,6 +42,7 @@
     "customerStories": "Customer Stories",
     "becomeAPartner": "Become a Partner",
     "jobs": "Jobs",
+    "termsOfService": "Terms of Service",
     "privacyPolicy": "Privacy Policy",
     "solutionsSection": {
       "title": "Tailored Payment Solutions to Drive Growth",
@@ -158,6 +159,61 @@
     "heroSection": {
       "title": "Empowering Payments, Simplifying Transactions",
       "subtitle": "Dineropay is redefining digital payments, making financial transactions faster, safer, and more accessible for everyone."
+    },
+    "companySection": {
+      "vision": {
+        "title": "Our Vision",
+        "tagline": "Seamless digital payments for all.",
+        "contents": "At Dineropay, we envision a world where digital transactions are effortless, secure, and universally accessible. Our goal is to empower businesses and individuals with a fast, reliable, and borderless payment ecosystem.",
+        "closing": "We are committed to shaping the future of digital finance, ensuring every transaction is simple, transparent, and secure."
+      },
+      "mission": {
+        "title": "Our Mission",
+        "tagline": "Transforming payments, empowering people.",
+        "contents": "Our mission is to simplify financial transactions by providing secure and efficient digital payment solutions. We aim to drive financial inclusion and economic growth through innovative and accessible technology.",
+        "closing": "By prioritizing security, innovation, and ease of use, we make digital payments a trusted solution for everyone."
+      }
+    },
+    "timelineSection": {
+      "events": [
+        {
+          "date": "Mar 2021",
+          "title": "Idea Conception",
+          "contents": "Dineropay was born from the vision of creating a seamless and secure digital payment solution for businesses and individuals."
+        },
+        {
+          "date": "Oct 2022",
+          "title": "First Prototype",
+          "contents": "The team successfully developed and tested the first prototype, laying the foundation for the future of digital transactions."
+        },
+        {
+          "date": "May 2023",
+          "title": "Strategic Partnerships",
+          "contents": "Dineropay partnered with major financial institutions to enhance security and expand global payment accessibility."
+        },
+        {
+          "date": "Nov 2024",
+          "title": "Official Launch",
+          "contents": "After rigorous testing and optimization, Dineropay officially launched, bringing effortless digital transactions to the world."
+        }
+      ]
+    },
+    "teamLetterSection": {
+      "title": "Letter from the CEO",
+      "tagline": "Leading with vision, building the future.",
+      "name": "Mohamed Al Moallim",
+      "position": "Chief Executive Officer",
+      "contents": "At Dineropay, we are committed to revolutionizing digital payments by making transactions seamless, secure, and accessible to everyone. Our journey is fueled by innovation, trust, and the ambition to empower businesses and individuals alike. Thank you for being part of our mission to reshape the financial landscape."
+    },
+    "teamSection": {
+      "title": "Meet Our Leadership",
+      "description": "We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients."
+    },
+    "ctaSection": {
+      "title": "Join Our Team",
+      "description": "We’re always looking for talented and passionate individuals to help shape the future of digital payments. Explore our open roles and be part of something great.",
+
+      "cta": "See Open Roles"
     }
   }
 }

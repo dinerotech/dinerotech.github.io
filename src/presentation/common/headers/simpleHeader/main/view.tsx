@@ -1,14 +1,20 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Logo02SVG from "@/assets/svgs/logo04.svg";
+import Logo04SVG from "@/assets/svgs/logo04.svg";
+import Logo02SVG from "@/assets/svgs/logo02.svg";
 import LocaleContext from "@/presentation/common/localeProvider/client/context";
-import { MAIN_NAV } from "@/domain/navs/constants";
+// import { MAIN_NAV } from "@/domain/navs/constants";
 import MobileView from "@/presentation/home/header/mobile/view";
 import useViewModel from "./viewModel";
-import { LOCALES } from "@/domain/locale/constants";
+// import { LOCALES } from "@/domain/locale/constants";
 
-export default function View() {
+interface ViewProps {
+  theme: "light" | "dark";
+  title: string;
+}
+
+export default function View({ theme, title }: ViewProps) {
   const { locale, resource: t } = React.useContext(LocaleContext);
   const { isMobileViewHidden, onHideMobileView, onShowMobileView } =
     useViewModel();
@@ -26,10 +32,17 @@ export default function View() {
               className="-m-1.5 p-1.5"
             >
               <span className="sr-only">DineroPay</span>
-              <Image className="h-8 w-auto" src={Logo02SVG} alt="logo" />
+              {theme === "light" && (
+                <Image className="h-8 w-auto" src={Logo02SVG} alt="logo" />
+              )}
+              {theme === "dark" && (
+                <Image className="h-8 w-auto" src={Logo04SVG} alt="logo" />
+              )}
             </Link>
-            <span className="text-lg uppercase font-bold text-sky-300">
-              {t.home.products}
+            <span
+              className={`text-lg uppercase font-bold ${theme === "dark" ? "text-sky-300" : "text-gray-400"}`}
+            >
+              {title}
             </span>
           </div>
         </div>

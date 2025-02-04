@@ -1,5 +1,5 @@
 import React from "react";
-import View from "@/presentation/privacyPolicy/main/view";
+import View from "@/presentation/termsOfService/main/view";
 
 export default function Page() {
   return <View />;

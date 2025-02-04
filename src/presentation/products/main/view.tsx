@@ -4,7 +4,7 @@ import HeroView from "@/presentation/products/hero/view";
 import ContainerView from "@/presentation/products/container/view";
 import BannerView from "@/presentation/common/banner/view";
 import LocaleContext from "@/presentation/common/localeProvider/client/context";
-import HeaderView from "@/presentation/products/header/main/view";
+import SimpleHeaderView from "@/presentation/common/headers/simpleHeader/main/view";
 import FooterView from "@/presentation/home/footer/view";
 import PaymentSectionView from "@/presentation/products/sections/payments/view";
 import OnboardingSectionView from "@/presentation/products/sections/onboarding/main/view";
@@ -24,7 +24,7 @@ export default function View() {
         actionHref="#"
       />
       <ContainerView>
-        <HeaderView />
+        <SimpleHeaderView title={t.home.products} theme="dark" />
         <HeroView />
       </ContainerView>
       <PaymentSectionView />

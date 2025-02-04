@@ -50,6 +50,7 @@ export interface LocaleResourcePto {
     customerStories: string;
     becomeAPartner: string;
     jobs: string;
+    termsOfService: string;
     privacyPolicy: string;
     //
     banner: {
@@ -153,6 +154,43 @@ export interface LocaleResourcePto {
     heroSection: {
       title: string;
       subtitle: string;
+    };
+    companySection: {
+      vision: {
+        title: string;
+        tagline: string;
+        contents: string;
+        closing: string;
+      };
+      mission: {
+        title: string;
+        tagline: string;
+        contents: string;
+        closing: string;
+      };
+    };
+    timelineSection: {
+      events: {
+        date: string;
+        title: string;
+        contents: string;
+      }[];
+    };
+    teamLetterSection: {
+      title: string;
+      tagline: string;
+      name: string;
+      position: string;
+      contents: string;
+    };
+    teamSection: {
+      title: string;
+      description: string;
+    };
+    ctaSection: {
+      title: string;
+      description: string;
+      cta: string;
     };
   };
 }

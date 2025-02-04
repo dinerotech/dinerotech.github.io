@@ -4,7 +4,11 @@ import Link from "next/link";
 import Logo02SVG from "@/assets/svgs/logo02.svg";
 import LocaleContext from "@/presentation/common/localeProvider/client/context";
 
-export default function View() {
+interface ViewProps {
+  title: string;
+}
+
+export default function View({ title }: ViewProps) {
   const { locale, resource: t } = React.useContext(LocaleContext);
   return (
     <header className="relative inset-x-0 top-0 z-50">
@@ -22,7 +26,7 @@ export default function View() {
               <Image className="h-8 w-auto" src={Logo02SVG} alt="logo" />
             </Link>
             <span className="text-lg uppercase font-bold text-gray-400">
-              {t.home.privacyPolicy}
+              {title}
             </span>
           </div>
         </div>

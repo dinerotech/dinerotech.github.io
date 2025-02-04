@@ -12,7 +12,7 @@ export default function View({ img }: ViewProps) {
     <Image
       className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
       src={img || BlankImgPNG}
-      alt="Transistor"
+      alt="client logo"
       width="158"
       height="48"
     />

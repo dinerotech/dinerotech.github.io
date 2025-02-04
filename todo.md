@@ -157,13 +157,49 @@
 - about us page:
     - header                        [DONE]
     - hero                          [DONE]
-    - our mission section
-    - our values section
-    - timeline section
-    - from the CEO section
-    - team section
-    - cta section
-    - footer
+    - our mission section           []
+    - our values section            []
+    - timeline section              []
+    - from the CEO section          []
+    - team section                  []
+    - cta section                   []
+    - footer                        [DONE]
+
+## 25.02.04
+- about us page:
+    - hero logo                     [DONE]
+    - our mission section           [DONE]
+    - our values section            [DONE]
+    - timeline section              [DONE]
+    - from the CEO section          [DONE]
+    - team section                  [DONE]
+    - cta section                   [DONE]
+
+## 25.02.05
+- support center/fags               []
+- contact us                        []
+- contact sales                     []
+- improve the homepage bg           []
+- improve the homepage in general   []
+
+
+## 25.02.06
+- jobs                              []
+- become a partner                  []
+- blog                              []
+
+## 25.02.07
+- developers                        []
+
+## Checklist:
+- support center
+- jobs
+- become partner
+- press
+- blog
+- developers
+- contact us
+- contact sales
 
 ## Daily:
 - resources:

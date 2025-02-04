@@ -103,7 +103,7 @@ export const RESOURCES_FOOTER_NAV: NavLinkPto[] = [
   },
   {
     identifier: "contactUs",
-    href: "about-us#contact-us"
+    href: "contact-us"
   },
   {
     identifier: "blog",
@@ -126,8 +126,8 @@ export const RESOURCES_FOOTER_NAV: NavLinkPto[] = [
     href: "jobs"
   },
   {
-    identifier: "privacyPolicy",
-    href: "privacy-policy"
+    identifier: "termsOfService",
+    href: "terms-of-service"
   },
   {
     identifier: "aboutUs",
