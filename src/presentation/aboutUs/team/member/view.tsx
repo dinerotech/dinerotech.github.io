@@ -22,7 +22,7 @@ export default function View({ img, name, position }: ViewProps) {
           <h3 className="text-base/7 font-semibold tracking-tight text-gray-900">
             {name}
           </h3>
-          <p className="text-sm/6 font-semibold text-indigo-600">{position}</p>
+          <p className="text-sm/6 font-semibold text-sky-600">{position}</p>
         </div>
       </div>
     </li>
