@@ -9,7 +9,7 @@ import HeaderView from "@/presentation/home/header/main/view";
 import LogoCloudView from "@/presentation/home/logoCloud/main/view";
 import SolutionsSectionView from "@/presentation/home/sections/solutions/main/view";
 import ProductsSectionView from "@/presentation/home/sections/products/main/view";
-import StatsSectionView from "@/presentation/home/sections/stats/view";
+import StatsSectionView from "@/presentation/home/sections/stats/main/view";
 import BlogSectionView from "@/presentation/home/sections/blog/main/view";
 import CTASectionView from "@/presentation/home/sections/cta/view";
 import FooterView from "@/presentation/home/footer/view";

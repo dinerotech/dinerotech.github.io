@@ -176,14 +176,17 @@
     - cta section                   [DONE]
 
 ## 25.02.05
-- support center/fags               []
+- support center/fags               [DONE]
 - contact us                        []
 - contact sales                     []
-- improve the homepage bg           []
-- improve the homepage in general   []
+- improve the homepage bg           [DONE]
+- improve the stats section         [DONE]
+- improve the homepage in general   [SKIPPED]
 
 
 ## 25.02.06
+- contact us                        []
+- contact sales                     []
 - jobs                              []
 - become a partner                  []
 - blog                              []

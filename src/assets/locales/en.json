@@ -76,17 +76,22 @@
       }
     },
     "statsSection": {
+      "tagline": "Powering Seamless Transactions",
+      "title": "Our Impact in Numbers",
       "stats1": {
-        "counter": "10K",
-        "description": "API requests per day, peaking at 100 requests a second."
+        "value": "10K",
+        "title": "API Requests Daily",
+        "description": "Handling over 10,000 API requests per day, with peaks reaching 100 requests per second."
       },
       "stats2": {
-        "counter": "10",
-        "description": "New onboarding businesses every day."
+        "value": "10",
+        "title": "New Businesses Onboarded",
+        "description": "Every day, 10 new businesses join our ecosystem, expanding the reach of seamless digital payments."
       },
       "stats3": {
-        "counter": "7+",
-        "description": "Payment methods supported."
+        "value": "7+",
+        "title": "Supported Payment Methods",
+        "description": "We support over 7 payment methods, ensuring flexibility and convenience for all users."
       }
     },
     "blogSection": {
@@ -214,6 +219,43 @@
       "description": "We’re always looking for talented and passionate individuals to help shape the future of digital payments. Explore our open roles and be part of something great.",
 
       "cta": "See Open Roles"
+    }
+  },
+  "faqs": {
+    "heroSection": {
+      "title": "Frequently Asked Questions",
+      "description": "Find answers to the most common questions about our platform, services, and how we make digital transactions seamless and secure."
+    },
+    "questionsSection": {
+      "blocks": [
+        {
+          "question": "What payment methods do you support?",
+          "answer": "Dineropay supports a variety of payment methods, including credit cards (Visa, Mastercard, American Express), debit cards, e-wallets (Apple Pay, Google Pay), and online banking."
+        },
+        {
+          "question": "Are there any transaction fees?",
+          "answer": "Dineropay does not charge setup fees or monthly fees. However, transaction fees may apply depending on the payment method and processing bank."
+        },
+        {
+          "question": "How long does it take to receive funds in my account?",
+          "answer": "Dineropay provides fast and efficient payment processing. Depending on the payment method, funds are typically transferred to your account within 1-2 business days."
+        },
+        {
+          "question": "Does Dineropay offer recurring billing options?",
+          "answer": "Yes, Dineropay supports recurring billing to help businesses automate subscription payments. You can set up automated billing cycles and manage customer subscriptions through our platform or API."
+        },
+        {
+          "question": "Can I integrate Dineropay with my website or application?",
+          "answer": "Yes, Dineropay integrates easily with most e-commerce platforms and websites. We provide developer-friendly integration tools and dedicated support to ensure a seamless setup."
+        },
+        {
+          "question": "Is it safe to use Dineropay as a payment gateway?",
+          "answer": "Yes, Dineropay is built with security in mind. We use advanced encryption technologies, fraud detection systems, and compliance standards to protect transactions and customer data."
+        }
+      ]
+    },
+    "ctaSection": {
+      "description": "Didn't find what you're looking for? Contact us, and our team will be happy to assist you with any inquiries."
     }
   }
 }

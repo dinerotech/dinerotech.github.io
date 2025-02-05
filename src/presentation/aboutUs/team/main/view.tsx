@@ -19,10 +19,26 @@ export default function View() {
           role="list"
           className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2"
         >
-          <MemberView img={null} name="test" position="test" />
-          <MemberView img={null} name="test" position="test" />
-          <MemberView img={null} name="test" position="test" />
-          <MemberView img={null} name="test" position="test" />
+          <MemberView
+            img={null}
+            name="Yahya Moallim"
+            position="IT Specialist"
+          />
+          <MemberView
+            img={null}
+            name="Yahya Moallim"
+            position="IT Specialist"
+          />
+          <MemberView
+            img={null}
+            name="Yahya Moallim"
+            position="IT Specialist"
+          />
+          <MemberView
+            img={null}
+            name="Yahya Moallim"
+            position="IT Specialist"
+          />
         </ul>
       </div>
     </div>

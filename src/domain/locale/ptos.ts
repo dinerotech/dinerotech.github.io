@@ -85,16 +85,21 @@ export interface LocaleResourcePto {
       };
     };
     statsSection: {
+      tagline: string;
+      title: string;
       stats1: {
-        counter: string;
+        value: string;
+        title: string;
         description: string;
       };
       stats2: {
-        counter: string;
+        value: string;
+        title: string;
         description: string;
       };
       stats3: {
-        counter: string;
+        value: string;
+        title: string;
         description: string;
       };
     };
@@ -191,6 +196,21 @@ export interface LocaleResourcePto {
       title: string;
       description: string;
       cta: string;
+    };
+  };
+  faqs: {
+    heroSection: {
+      title: string;
+      description: string;
+    };
+    questionsSection: {
+      blocks: {
+        question: string;
+        answer: string;
+      }[];
+    };
+    ctaSection: {
+      description: string;
     };
   };
 }
