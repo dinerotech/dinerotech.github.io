@@ -1,3 +1,4 @@
+import LocaleContext from "@/presentation/common/localeProvider/client/context";
 import React from "react";
 
 export type ViewProps = Readonly<{
@@ -5,6 +6,7 @@ export type ViewProps = Readonly<{
 }>;
 
 export default function View({ children }: ViewProps) {
+  const { locale } = React.useContext(LocaleContext);
   return (
     <div>
       <div className="relative isolate">
@@ -38,16 +40,27 @@ export default function View({ children }: ViewProps) {
           />
         </svg>
         <div
-          className="absolute left-1/2 right-0 top-0 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48"
+          className="absolute rtl:left-1/2 ltr:right-1/2 rtl:right-0 ltr:left-0 top-0 -z-10 rtl:-ml-24 ltr:-mr-24 transform-gpu overflow-hidden blur-3xl rtl:lg:ml-24 rtl:xl:ml-48 ltr:lg:mr-24 ltr:xl:mr-48"
           aria-hidden="true"
         >
-          <div
-            className="aspect-[801/1036] w-[50.0625rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
-            style={{
-              clipPath:
-                "polygon(63.1% 29.5%, 100% 17.1%, 76.6% 3%, 48.4% 0%, 44.6% 4.7%, 54.5% 25.3%, 59.8% 49%, 55.2% 57.8%, 44.4% 57.2%, 27.8% 47.9%, 35.1% 81.5%, 0% 97.7%, 39.2% 100%, 35.2% 81.4%, 97.2% 52.8%, 63.1% 29.5%)"
-            }}
-          ></div>
+          {locale.direction === "rtl" && (
+            <div
+              className="aspect-[801/1036] w-[50.0625rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
+              style={{
+                clipPath:
+                  "polygon(63.1% 29.5%, 100% 17.1%, 76.6% 3%, 48.4% 0%, 44.6% 4.7%, 54.5% 25.3%, 59.8% 49%, 55.2% 57.8%, 44.4% 57.2%, 27.8% 47.9%, 35.1% 81.5%, 0% 97.7%, 39.2% 100%, 35.2% 81.4%, 97.2% 52.8%, 63.1% 29.5%)"
+              }}
+            ></div>
+          )}
+          {locale.direction === "ltr" && (
+            <div
+              className="aspect-[801/1036] w-[50.0625rem] bg-gradient-to-tl from-[#ff80b5] to-[#9089fc] opacity-30"
+              style={{
+                clipPath:
+                  "polygon(36.9% 29.5%, 0% 17.1%, 23.4% 3%, 51.6% 0%, 55.4% 4.7%, 45.5% 25.3%, 40.2% 49%, 44.8% 57.8%, 55.6% 57.2%, 72.2% 47.9%, 64.9% 81.5%, 100% 97.7%, 60.8% 100%, 64.8% 81.4%, 2.8% 52.8%, 36.9% 29.5%)"
+              }}
+            ></div>
+          )}
         </div>
         {children}
       </div>

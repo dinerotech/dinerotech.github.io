@@ -185,14 +185,38 @@
 
 
 ## 25.02.06
-- contact us                        []
-- contact sales                     []
+- various improvements              [DONE]
+- contact us                        [PARTIAL]
+- contact sales                     [PARTIAL]
+- join us/create test account       [PARTIAL]
+- customer stories                  [DONE]
 - jobs                              []
-- become a partner                  []
 - blog                              []
 
+
 ## 25.02.07
+- forms completion                  []
+
+- jobs                              []
+- blog                              []
 - developers                        []
+
+
+## 25.02.08
+- jobs                              []
+
+- blog
+- developers
+
+## 25.02.09
+- blog                              []
+
+## 25.02.10
+- developers                        []
+
+## 25.02.11
+- deployment                        []
+
 
 ## Checklist:
 - support center

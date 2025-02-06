@@ -1,5 +1,5 @@
 import React from "react";
-import QuestionView from "@/presentation/faqs/questions/question/view";
+import QuestionView from "@/presentation/faqs/sections/questions/question/view";
 import LocaleContext from "@/presentation/common/localeProvider/client/context";
 
 export default function View() {

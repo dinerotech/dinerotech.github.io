@@ -2,7 +2,7 @@
 
 import React from "react";
 import BasicHeaderView from "@/presentation/common/headers/basicHeader/view";
-import FooterView from "@/presentation/home/footer/view";
+import FooterView from "@/presentation/common/footer/view";
 import ContentsView from "@/presentation/termsOfService/contents/view";
 import LocaleContext from "@/presentation/common/localeProvider/client/context";
 

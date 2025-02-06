@@ -6,7 +6,7 @@ import LogoView from "@/presentation/home/logoCloud/logo/view";
 export default function View() {
   const { resource: t } = React.useContext(LocaleContext);
   return (
-    <div className="py-12 sm:py-16 sm:pb-32">
+    <div className="py-12 sm:py-24 sm:pb-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 className="text-center text-lg/8 font-semibold text-gray-900">
           {t.home.trustedByTeams}

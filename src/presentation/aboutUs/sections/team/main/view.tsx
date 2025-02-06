@@ -1,11 +1,11 @@
 import React from "react";
-import MemberView from "@/presentation/aboutUs/team/member/view";
+import MemberView from "@/presentation/aboutUs/sections/team/member/view";
 import LocaleContext from "@/presentation/common/localeProvider/client/context";
 
 export default function View() {
   const { resource: t } = React.useContext(LocaleContext);
   return (
-    <div className="bg-white py-12 sm:py-16">
+    <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3">
         <div className="max-w-xl">
           <h2 className="text-3xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-4xl">

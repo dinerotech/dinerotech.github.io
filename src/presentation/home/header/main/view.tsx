@@ -75,7 +75,7 @@ export default function View() {
             {t.home.signIn}
           </a>
           <a
-            href="#"
+            href={`/${locale.identifier}/contact-sales`}
             className="rounded-md bg-amber-600 px-3 py-2 text-sm/6 font-semibold text-white shadow-xs hover:bg-amber-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600"
           >
             {t.home.contactSales}&nbsp;

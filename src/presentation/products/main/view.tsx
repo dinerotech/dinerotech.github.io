@@ -5,7 +5,7 @@ import ContainerView from "@/presentation/products/container/view";
 import BannerView from "@/presentation/common/banner/view";
 import LocaleContext from "@/presentation/common/localeProvider/client/context";
 import SimpleHeaderView from "@/presentation/common/headers/simpleHeader/main/view";
-import FooterView from "@/presentation/home/footer/view";
+import FooterView from "@/presentation/common/footer/view";
 import PaymentSectionView from "@/presentation/products/sections/payments/view";
 import OnboardingSectionView from "@/presentation/products/sections/onboarding/main/view";
 import DashboardSectionView from "@/presentation/products/sections/dashboard/main/view";

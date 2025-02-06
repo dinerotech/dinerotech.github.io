@@ -94,6 +94,37 @@
         "description": "We support over 7 payment methods, ensuring flexibility and convenience for all users."
       }
     },
+    "testimonialsSection": {
+      "title": "What Our Clients Say",
+      "subTitle": "We’ve worked with thousands of amazing people and businesses",
+      "testimonials": [
+        {
+          "message": "Integrating Dineropay into our platform was effortless. Their API is well-documented, and the support team is incredibly responsive.",
+          "author": "Emily Carter",
+          "company": "SwiftCommerce"
+        },
+        {
+          "message": "We saw a 30% increase in customer retention after switching to Dineropay. The payment experience is smooth and hassle-free.",
+          "author": "David Kim",
+          "company": "GoFit App"
+        },
+        {
+          "message": "Security and reliability were our top priorities, and Dineropay delivered on both. Our transactions have never been more secure.",
+          "author": "Ahmed Saleh",
+          "company": "SecurePay Solutions"
+        },
+        {
+          "message": "The ability to process international payments so easily has opened up new markets for us. Dineropay is a game-changer!",
+          "author": "Isabella Martinez",
+          "company": "Global Trade Hub"
+        },
+        {
+          "message": "I love how simple and intuitive Dineropay is. Our team was up and running in no time, and we’ve had zero issues since onboarding.",
+          "author": "Michael Chen",
+          "company": "NextLevel SaaS"
+        }
+      ]
+    },
     "blogSection": {
       "title": "From Our Blog",
       "subTitle": "Discover insights, strategies, and tips to help you grow your business and optimize payments.",
@@ -256,6 +287,49 @@
     },
     "ctaSection": {
       "description": "Didn't find what you're looking for? Contact us, and our team will be happy to assist you with any inquiries."
+    }
+  },
+  "contactUs": {
+    "heroSection": {
+      "title": "Get in Touch",
+      "tagline": "We’re here to help! Reach out to us for any inquiries or support."
+    },
+
+    "officesSection": {
+      "title": "Our Offices",
+      "description": "From bustling cities to emerging markets, we’re building a strong presence to serve businesses and customers worldwide. Visit us at any of our offices and experience the future of digital payments.",
+      "offices": [
+        {
+          "city": "New York",
+          "addressLineOne": "1234 Financial Street",
+          "addressLineTwo": "Manhattan, NY 10001"
+        },
+        {
+          "city": "London",
+          "addressLineOne": "56 Innovation Avenue",
+          "addressLineTwo": "Canary Wharf, London E14 5AB"
+        },
+        {
+          "city": "Dubai",
+          "addressLineOne": "789 Business Bay Tower",
+          "addressLineTwo": "Downtown, Dubai, UAE"
+        }
+      ]
+    }
+  },
+  "contactSales": {
+    "formBlockContainerSection": {
+      "title": "Looking to streamline payments?",
+      "description": "Let’s discuss how our solutions can power seamless transactions for your business."
+    },
+    "formSideSection": {
+      "message": "Hello and welcome! We're thrilled to support you in exploring all the possibilities with DineroPay. Please feel free to reach out and let us know how we can help your business thrive. Our team is here to make sure you have the best experience possible!"
+    }
+  },
+  "joinUs": {
+    "heroSection": {
+      "title": "Get Started with Dineropay",
+      "tagline": "Create a test account and explore our payment solutions risk-free."
     }
   }
 }

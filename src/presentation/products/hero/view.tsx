@@ -6,7 +6,7 @@ export default function View() {
 
   return (
     <div className="mx-auto max-w-7xl px-6 lg:px-8">
-      <div className="mx-auto max-w-5xl py-16 sm:py-24 lg:py-56">
+      <div className="mx-auto max-w-5xl py-24 sm:py-36 lg:py-56">
         <div className="text-center">
           <h1 className="text-balance text-5xl font-semibold tracking-tight text-white sm:text-7xl">
             {t.products.heroSection.title}

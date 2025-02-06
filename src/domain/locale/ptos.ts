@@ -103,6 +103,15 @@ export interface LocaleResourcePto {
         description: string;
       };
     };
+    testimonialsSection: {
+      title: string;
+      subTitle: string;
+      testimonials: {
+        message: string;
+        author: string;
+        company: string;
+      }[];
+    };
     blogSection: {
       title: string;
       subTitle: string;
@@ -211,6 +220,36 @@ export interface LocaleResourcePto {
     };
     ctaSection: {
       description: string;
+    };
+  };
+  contactUs: {
+    heroSection: {
+      title: string;
+      tagline: string;
+    };
+    officesSection: {
+      title: string;
+      description: string;
+      offices: {
+        city: string;
+        addressLineOne: string;
+        addressLineTwo: string;
+      }[];
+    };
+  };
+  contactSales: {
+    formBlockContainerSection: {
+      title: string;
+      description: string;
+    };
+    formSideSection: {
+      message: string;
+    };
+  };
+  joinUs: {
+    heroSection: {
+      title: string;
+      tagline: string;
     };
   };
 }

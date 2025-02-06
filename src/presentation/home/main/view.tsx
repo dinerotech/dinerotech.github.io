@@ -12,7 +12,8 @@ import ProductsSectionView from "@/presentation/home/sections/products/main/view
 import StatsSectionView from "@/presentation/home/sections/stats/main/view";
 import BlogSectionView from "@/presentation/home/sections/blog/main/view";
 import CTASectionView from "@/presentation/home/sections/cta/view";
-import FooterView from "@/presentation/home/footer/view";
+import FooterView from "@/presentation/common/footer/view";
+import TestimonialsSectionView from "@/presentation/home/sections/testimonials/main/view";
 
 export default function View() {
   const { resource: t } = React.useContext(LocaleContext);
@@ -32,6 +33,7 @@ export default function View() {
       <SolutionsSectionView />
       <ProductsSectionView />
       <StatsSectionView />
+      <TestimonialsSectionView />
       <BlogSectionView />
       <CTASectionView />
       <FooterView />

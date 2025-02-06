@@ -102,6 +102,10 @@ export const RESOURCES_FOOTER_NAV: NavLinkPto[] = [
     href: "contact-sales"
   },
   {
+    identifier: "joinUs",
+    href: "join-us"
+  },
+  {
     identifier: "contactUs",
     href: "contact-us"
   },
@@ -113,14 +117,14 @@ export const RESOURCES_FOOTER_NAV: NavLinkPto[] = [
     identifier: "faqs",
     href: "faqs"
   },
-  {
-    identifier: "customerStories",
-    href: "about-us#customer-stories"
-  },
-  {
-    identifier: "becomeAPartner",
-    href: "partners"
-  },
+  // {
+  //   identifier: "customerStories",
+  //   href: "about-us#customer-stories"
+  // },
+  // {
+  //   identifier: "becomeAPartner",
+  //   href: "partners"
+  // },
   {
     identifier: "jobs",
     href: "jobs"

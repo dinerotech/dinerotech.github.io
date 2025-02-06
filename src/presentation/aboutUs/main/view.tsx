@@ -5,12 +5,12 @@ import LocaleContext from "@/presentation/common/localeProvider/client/context";
 import SimpleHeaderView from "@/presentation/common/headers/simpleHeader/main/view";
 import HeroView from "@/presentation/aboutUs/hero/main/view";
 import ContainerView from "@/presentation/aboutUs/container/view";
-import FooterView from "@/presentation/home/footer/view";
-import CompanyView from "@/presentation/aboutUs/company/view";
-import TimelineView from "@/presentation/aboutUs/timeline/main/view";
-import TeamLetterView from "@/presentation/aboutUs/teamLetter/view";
-import TeamView from "@/presentation/aboutUs/team/main/view";
-import CTASectionView from "@/presentation/aboutUs/cta/view";
+import FooterView from "@/presentation/common/footer/view";
+import CompanySectionView from "@/presentation/aboutUs/sections/company/view";
+import TimelineSectionView from "@/presentation/aboutUs/sections/timeline/main/view";
+import TeamLetterSectionView from "@/presentation/aboutUs/sections/teamLetter/view";
+import TeamSectionView from "@/presentation/aboutUs/sections/team/main/view";
+import CTASectionView from "@/presentation/aboutUs/sections/cta/view";
 
 export default function View() {
   const { resource: t } = React.useContext(LocaleContext);
@@ -25,11 +25,10 @@ export default function View() {
       <SimpleHeaderView title={t.home.aboutUs} theme="light" />
       <ContainerView>
         <HeroView />
-        <CompanyView />
-        <TimelineView />
-        <TeamLetterView img={null} />
-        <TeamView />
-        <div className="mt-24 w-full" />
+        <CompanySectionView />
+        <TimelineSectionView />
+        <TeamLetterSectionView img={null} />
+        <TeamSectionView />
         <CTASectionView />
       </ContainerView>
       <FooterView />
