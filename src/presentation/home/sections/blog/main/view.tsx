@@ -9,12 +9,12 @@ export default function View() {
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+          <p className="text-base/7 font-semibold text-sky-600">
+            {t.home.blogSection.tagline}
+          </p>
+          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
             {t.home.blogSection.title}
           </h2>
-          <p className="mt-2 text-lg/8 text-gray-600">
-            {t.home.blogSection.subTitle}
-          </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           <PostView

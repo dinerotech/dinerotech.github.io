@@ -1,6 +1,6 @@
 import LocaleContext from "@/presentation/common/localeProvider/client/context";
 import React from "react";
-import ElementView from "@/presentation/home/sections/stats/element/view";
+import SingleStatView from "@/presentation/home/sections/stats/singleStat/view";
 
 export default function View() {
   const { resource: t } = React.useContext(LocaleContext);
@@ -17,17 +17,17 @@ export default function View() {
           </h2>
         </div>
         <div className="flex flex-col gap-5 xl:gap-8 lg:flex-row lg:justify-between">
-          <ElementView
+          <SingleStatView
             value={t.home.statsSection.stats1.value}
             title={t.home.statsSection.stats1.title}
             description={t.home.statsSection.stats1.description}
           />
-          <ElementView
+          <SingleStatView
             value={t.home.statsSection.stats2.value}
             title={t.home.statsSection.stats2.title}
             description={t.home.statsSection.stats2.description}
           />
-          <ElementView
+          <SingleStatView
             value={t.home.statsSection.stats3.value}
             title={t.home.statsSection.stats3.title}
             description={t.home.statsSection.stats3.description}

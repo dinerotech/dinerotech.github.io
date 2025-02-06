@@ -126,8 +126,8 @@
       ]
     },
     "blogSection": {
-      "title": "From Our Blog",
-      "subTitle": "Discover insights, strategies, and tips to help you grow your business and optimize payments.",
+      "tagline": "From Our Blog",
+      "title": "Discover tips and strategies to grow your business and streamline payments.",
       "categories": {
         "marketing": "Marketing",
         "developers": "Developers",
@@ -211,6 +211,8 @@
       }
     },
     "timelineSection": {
+      "tagline": "Our Journey",
+      "title": "Milestones That Shaped Us",
       "events": [
         {
           "date": "Mar 2021",

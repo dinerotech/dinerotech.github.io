@@ -114,7 +114,7 @@ export interface LocaleResourcePto {
     };
     blogSection: {
       title: string;
-      subTitle: string;
+      tagline: string;
       categories: {
         marketing: string;
         developers: string;
@@ -184,6 +184,8 @@ export interface LocaleResourcePto {
       };
     };
     timelineSection: {
+      tagline: string;
+      title: string;
       events: {
         date: string;
         title: string;

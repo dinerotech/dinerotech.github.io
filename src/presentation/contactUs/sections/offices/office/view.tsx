@@ -13,10 +13,10 @@ export default function View({
 }: ViewProps) {
   return (
     <div>
-      <h3 className="border-l border-indigo-600 pl-6 font-semibold text-gray-900">
+      <h3 className="border-l border-sky-600 pl-6 font-semibold text-gray-900">
         {city}
       </h3>
-      <address className="border-l border-gray-200 pt-2 pl-6 text-gray-600 not-italic">
+      <address className="border-l border-gray-300 pt-2 pl-6 text-gray-600 not-italic">
         <p>{AddressLineOne}</p>
         <p>{AddressLineTwo}</p>
       </address>
