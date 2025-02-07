@@ -315,6 +315,17 @@
           "addressLineTwo": "داون تاون، دبي، الإمارات العربية المتحدة"
         }
       ]
+    },
+    "formSection": {
+      "firstName": "الاسم الأول",
+      "lastName": "اسم العائلة",
+      "workEmail": "البريد الإلكتروني للعمل",
+      "workPhone": "هاتف العمل",
+      "company": "الشركة",
+      "website": "الموقع الإلكتروني",
+      "message": "الرسالة",
+      "letsTalk": "لنتحدث",
+      "bySubmittingThisFormIAgreeToThe": "من خلال إرسال هذا النموذج، أوافق على"
     }
   },
   "contactSales": {
@@ -324,12 +335,44 @@
     },
     "formSideSection": {
       "message": "مرحبًا وأهلًا بك! يسعدنا دعمك في استكشاف جميع الإمكانيات مع Dineropay. لا تتردد في التواصل معنا وإخبارنا بكيفية مساعدتك على تحقيق النجاح لعملك. فريقنا هنا لضمان حصولك على أفضل تجربة ممكنة!"
+    },
+    "formSection": {
+      "firstName": "الاسم الأول",
+      "lastName": "اسم العائلة",
+      "workEmail": "البريد الإلكتروني للعمل",
+      "workPhone": "هاتف العمل",
+      "website": "الموقع الإلكتروني",
+      "requestType": "نوع الطلب",
+      "message": "الرسالة",
+      "letsTalk": "لنتحدث",
+      "bySubmittingThisFormIAgreeToThe": "من خلال إرسال هذا النموذج، أوافق على",
+      "requestTypes": {
+        "generalRequest": "استفسار عام",
+        "serviceRequest": "طلب خدمة",
+        "serviceRatesRequest": "استفسار عن أسعار الخدمة",
+        "testAccountRequest": "طلب حساب تجريبي"
+      }
     }
   },
   "joinUs": {
     "heroSection": {
       "title": "ابدأ مع Dineropay",
       "tagline": "أنشئ حسابًا تجريبيًا واكتشف حلول الدفع لدينا دون أي مخاطرة."
+    },
+
+    "formSection": {
+      "firstName": "الاسم الأول",
+      "lastName": "اسم العائلة",
+      "workEmail": "البريد الإلكتروني للعمل",
+      "workPhone": "هاتف العمل",
+      "company": "الشركة",
+      "merchant": "التاجر",
+      "merchantLogo": "شعار التاجر",
+      "merchantLogoNote": "SVG، PNG، JPG أو JPEG (بحد أقصى 800×400 بكسل).",
+      "website": "الموقع الإلكتروني",
+      "message": "الرسالة",
+      "letsTalk": "لنتحدث",
+      "bySubmittingThisFormIAgreeToThe": "من خلال إرسال هذا النموذج، أوافق على"
     }
   }
 }

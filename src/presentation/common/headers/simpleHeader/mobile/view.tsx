@@ -74,7 +74,7 @@ export default function View({ onHide }: ViewProps) {
                 {t.home.signIn}
               </a>
               <a
-                href="#"
+                href={`/${locale.identifier}/contact-sales`}
                 className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
               >
                 {t.home.contactSales}

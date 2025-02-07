@@ -317,6 +317,17 @@
           "addressLineTwo": "Downtown, Dubai, UAE"
         }
       ]
+    },
+    "formSection": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "workEmail": "Work Email",
+      "workPhone": "Work Phone",
+      "company": "Company",
+      "website": "Website",
+      "message": "Message",
+      "letsTalk": "Let’s Talk",
+      "bySubmittingThisFormIAgreeToThe": "By submitting this form, I agree to the"
     }
   },
   "contactSales": {
@@ -326,12 +337,43 @@
     },
     "formSideSection": {
       "message": "Hello and welcome! We're thrilled to support you in exploring all the possibilities with DineroPay. Please feel free to reach out and let us know how we can help your business thrive. Our team is here to make sure you have the best experience possible!"
+    },
+    "formSection": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "workEmail": "Work Email",
+      "workPhone": "Work Phone",
+      "website": "Website",
+      "requestType": "Request type",
+      "message": "Message",
+      "letsTalk": "Let’s Talk",
+      "bySubmittingThisFormIAgreeToThe": "By submitting this form, I agree to the",
+      "requestTypes": {
+        "generalRequest": "General Inquiry",
+        "serviceRequest": "Service Request",
+        "serviceRatesRequest": "Service Rates Inquiry",
+        "testAccountRequest": "Test Account Request"
+      }
     }
   },
   "joinUs": {
     "heroSection": {
       "title": "Get Started with Dineropay",
       "tagline": "Create a test account and explore our payment solutions risk-free."
+    },
+    "formSection": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "workEmail": "Work Email",
+      "workPhone": "Work Phone",
+      "company": "Company",
+      "merchant": "Merchant",
+      "merchantLogo": "Merchant Logo",
+      "merchantLogoNote": "SVG, PNG, JPG or JPEG (MAX. 800x400px).",
+      "website": "Website",
+      "message": "Message",
+      "letsTalk": "Let’s Talk",
+      "bySubmittingThisFormIAgreeToThe": "By submitting this form, I agree to the"
     }
   }
 }

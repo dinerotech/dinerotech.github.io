@@ -195,7 +195,13 @@
 
 
 ## 25.02.07
-- forms completion                  []
+- privacy policy                    [DONE]
+- forms completion:
+    - forms structure               [DONE]
+    - forms localization            [DONE]
+    - forms captcha                 [DONE]
+    - forms BLL                     []
+    - forms Completion updates      []
 
 - jobs                              []
 - blog                              []
@@ -203,6 +209,9 @@
 
 
 ## 25.02.08
+- forms completion:
+    - forms BLL                     []
+    - forms Completion updates      []
 - jobs                              []
 
 - blog

@@ -238,6 +238,16 @@ export interface LocaleResourcePto {
         addressLineTwo: string;
       }[];
     };
+    formSection: {
+      firstName: string;
+      lastName: string;
+      workEmail: string;
+      workPhone: string;
+      company: string;
+      message: string;
+      letsTalk: string;
+      bySubmittingThisFormIAgreeToThe: string;
+    };
   };
   contactSales: {
     formBlockContainerSection: {
@@ -247,11 +257,41 @@ export interface LocaleResourcePto {
     formSideSection: {
       message: string;
     };
+    formSection: {
+      firstName: string;
+      lastName: string;
+      workEmail: string;
+      workPhone: string;
+      website: string;
+      message: string;
+      letsTalk: string;
+      bySubmittingThisFormIAgreeToThe: string;
+      requestType: string;
+      requestTypes: {
+        generalRequest: string;
+        serviceRequest: string;
+        serviceRatesRequest: string;
+        testAccountRequest: string;
+      };
+    };
   };
   joinUs: {
     heroSection: {
       title: string;
       tagline: string;
+    };
+    formSection: {
+      firstName: string;
+      lastName: string;
+      workEmail: string;
+      workPhone: string;
+      company: string;
+      merchant: string;
+      merchantLogo: string;
+      merchantLogoNote: string;
+      message: string;
+      letsTalk: string;
+      bySubmittingThisFormIAgreeToThe: string;
     };
   };
 }

@@ -14,7 +14,7 @@ export default function View() {
 
   return (
     <main id="contact-sales" className="bg-white">
-      <BasicHeaderView title={t.home.contactUs} />
+      <BasicHeaderView title={t.home.contactSales} />
       <ContainerView>
         <FormBlockContainerSectionView>
           <FormSectionView />

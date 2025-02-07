@@ -134,6 +134,10 @@ export const RESOURCES_FOOTER_NAV: NavLinkPto[] = [
     href: "terms-of-service"
   },
   {
+    identifier: "privacyPolicy",
+    href: "privacy-policy"
+  },
+  {
     identifier: "aboutUs",
     href: "about-us"
   }
