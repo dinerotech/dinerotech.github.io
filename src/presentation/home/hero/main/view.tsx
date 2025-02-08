@@ -14,10 +14,7 @@ export default function View() {
           description={t.home.seeOpenPositions}
           href={`/${locale.identifier}/jobs`}
         />
-        <h1
-          className="mt-10 text-pretty text-5xl font-bold tracking-tight text-gray-900 sm:text-7xl leading-relaxed"
-          style={{ lineHeight: 1.1 }}
-        >
+        <h1 className="mt-10 text-pretty text-5xl font-bold tracking-tight text-gray-900 sm:text-7xl leading-tight sm:leading-tight">
           {t.home.slogan}
         </h1>
         <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">

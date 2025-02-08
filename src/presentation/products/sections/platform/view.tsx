@@ -12,7 +12,7 @@ export default function View() {
             <h2 className="text-base/7 font-semibold text-sky-600">
               {t.products.othersSection.tagline}
             </h2>
-            <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+            <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl leading-tight sm:leading-tight">
               {t.products.othersSection.title}
             </p>
             <p className="mt-6 text-base/7 text-gray-600">

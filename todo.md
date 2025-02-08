@@ -202,28 +202,36 @@
     - forms captcha                 [DONE]
     - forms BLL                     []
     - forms Completion updates      []
-
 - jobs                              []
 - blog                              []
 - developers                        []
 
 
 ## 25.02.08
+- fix headers line height in ar     [DONE]
 - forms completion:
-    - forms BLL                     []
-    - forms Completion updates      []
+    - forms BLL                     [DONE]
+    - forms Completion updates      [DONE]
 - jobs                              []
-
-- blog
-- developers
-
-## 25.02.09
 - blog                              []
-
-## 25.02.10
 - developers                        []
 
+
+## 25.02.09
+- jobs                              []
+- blog                              []
+
+
+## 25.02.10
+- blog                              []
+- developers                        []
+
+
 ## 25.02.11
+- developers                        []
+- deployment                        []
+
+## 25.02.12
 - deployment                        []
 
 

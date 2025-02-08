@@ -37,7 +37,7 @@ export default function View() {
           <h2 className="text-base/7 font-semibold text-sky-600">
             {t.home.testimonialsSection.title}
           </h2>
-          <p className="mt-2 text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">
+          <p className="mt-2 text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl leading-tight sm:leading-tight">
             {t.home.testimonialsSection.subTitle}
           </p>
         </div>

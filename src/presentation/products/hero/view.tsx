@@ -8,7 +8,7 @@ export default function View() {
     <div className="mx-auto max-w-7xl px-6 lg:px-8">
       <div className="mx-auto max-w-5xl py-24 sm:py-36 lg:py-56">
         <div className="text-center">
-          <h1 className="text-balance text-5xl font-semibold tracking-tight text-white sm:text-7xl">
+          <h1 className="text-balance text-5xl font-semibold tracking-tight text-white sm:text-7xl leading-tight sm:leading-tight">
             {t.products.heroSection.title}
           </h1>
           <p className="mt-8 text-pretty text-lg font-medium text-gray-200 sm:text-xl/8">

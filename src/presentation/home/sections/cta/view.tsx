@@ -8,7 +8,7 @@ export default function View() {
     <div className="relative isolate overflow-hidden bg-gray-900">
       <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl">
+          <h2 className="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl leading-tight sm:leading-tight">
             {t.home.ctaSection.title}
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-gray-300">

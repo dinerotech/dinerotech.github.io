@@ -1,10 +1,16 @@
 import LocaleContext from "@/presentation/common/localeProvider/client/context";
 import React from "react";
+import useViewModel from "./viewModel";
 
 export default function View() {
   const { locale, resource: t } = React.useContext(LocaleContext);
+  const { loading, handleSubmit } = useViewModel();
   return (
-    <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">
+    <form
+      method="POST"
+      className="mx-auto mt-16 max-w-xl sm:mt-20"
+      onSubmit={handleSubmit}
+    >
       <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
         <div>
           <label
@@ -87,17 +93,17 @@ export default function View() {
         </div>
         <div className="sm:col-span-2">
           <label
-            htmlFor="company"
+            htmlFor="website"
             className="block text-sm/6 font-semibold text-gray-900"
           >
-            {t.joinUs.formSection.company}
+            {t.joinUs.formSection.website}
           </label>
           <div className="mt-2.5">
             <input
-              type="text"
-              name="company"
-              id="company"
-              autoComplete="organization"
+              type="url"
+              name="website"
+              id="website"
+              autoComplete="website"
               className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-sky-600"
             />
           </div>
@@ -113,10 +119,10 @@ export default function View() {
           <div className="mt-2.5">
             <input
               type="text"
-              name="merchant_name"
+              name="merchant"
               id="merchant"
               required={true}
-              autoComplete="merchant"
+              autoComplete="organization"
               className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-sky-600"
             />
           </div>
@@ -124,7 +130,7 @@ export default function View() {
 
         <div className="sm:col-span-2">
           <label
-            htmlFor="merchant"
+            htmlFor="merchant-logo"
             className="block text-sm/6 font-semibold text-gray-900"
           >
             {t.joinUs.formSection.merchantLogo}{" "}
@@ -133,8 +139,8 @@ export default function View() {
           <div className="mt-2.5">
             <input
               type="file"
-              name="merchant_logo"
-              id="merchant_logo"
+              name="merchant-logo"
+              id="merchant-logo"
               required={true}
               accept="image/*"
               className="block w-full rounded-md bg-white px-3.5 py-1 text-base text-gray-900 border border-gray-500 file:mr-4 file:py-1.5 file:px-1 file:rounded-md file:border-0 file:text-sm file:font-semibold file:bg-sky-50 file:text-sky-700 hover:file:bg-sky-100 focus:border-sky-600 focus:ring-2 focus:ring-sky-500"
@@ -151,14 +157,12 @@ export default function View() {
             className="block text-sm/6 font-semibold text-gray-900"
           >
             {t.joinUs.formSection.message}{" "}
-            <span className="text-red-600">*</span>
           </label>
           <div className="mt-2.5">
             <textarea
               name="message"
               id="message"
               rows={4}
-              required={true}
               className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-sky-600"
             ></textarea>
           </div>
@@ -167,9 +171,13 @@ export default function View() {
       <div className="mt-10">
         <button
           type="submit"
-          className="block w-full rounded-md bg-sky-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-sky-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+          disabled={loading}
+          className={`
+            block w-full rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs
+            ${loading ? "bg-gray-400 cursor-not-allowed" : "bg-sky-600 hover:bg-sky-500 focus-visible:outline-sky-600"}
+          `}
         >
-          {t.joinUs.formSection.letsTalk}
+          {t.contactUs.formSection.letsTalk}
         </button>
       </div>
       <p className="mt-4 text-sm/6 text-gray-500">

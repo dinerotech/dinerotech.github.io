@@ -6,6 +6,8 @@ import ContainerView from "@/presentation/common/containers/formContainer/view";
 import HeroView from "@/presentation/common/heros/basic/view";
 import FormSectionView from "@/presentation/joinUs/sections/form/main/view";
 import FooterView from "@/presentation/common/footer/view";
+import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
+import { SITE_KEY } from "@/domain/recaptcha/constants";
 
 export default function View() {
   const { resource: t } = React.useContext(LocaleContext);
@@ -18,7 +20,9 @@ export default function View() {
           title={t.joinUs.heroSection.title}
           tagline={t.joinUs.heroSection.tagline}
         />
-        <FormSectionView />
+        <GoogleReCaptchaProvider reCaptchaKey={SITE_KEY}>
+          <FormSectionView />
+        </GoogleReCaptchaProvider>
       </ContainerView>
       <FooterView />
     </main>

@@ -17,7 +17,7 @@ export default function View({ img }: ViewProps) {
           <p className="text-base/7 font-semibold text-sky-600">
             {t.aboutUs.teamLetterSection.tagline}
           </p>
-          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+          <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl leading-tight sm:leading-tight">
             {t.aboutUs.teamLetterSection.title}
           </h2>
         </div>

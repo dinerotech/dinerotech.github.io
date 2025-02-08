@@ -15,7 +15,7 @@ export default function View() {
   return (
     <div id="payment-methods" className="bg-gray-900 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <h2 className="text-center text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl">
+        <h2 className="text-center text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl leading-tight sm:leading-tight">
           {t.products.paymentsSection.title}
         </h2>
         <p className="text-center mt-6 text-lg/8 text-gray-300">

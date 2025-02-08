@@ -366,14 +366,21 @@
       "lastName": "Last Name",
       "workEmail": "Work Email",
       "workPhone": "Work Phone",
-      "company": "Company",
+      "website": "Website",
       "merchant": "Merchant",
       "merchantLogo": "Merchant Logo",
       "merchantLogoNote": "SVG, PNG, JPG or JPEG (MAX. 800x400px).",
-      "website": "Website",
       "message": "Message",
       "letsTalk": "Let’s Talk",
       "bySubmittingThisFormIAgreeToThe": "By submitting this form, I agree to the"
+    }
+  },
+  "thankYou": {
+    "contentsSection": {
+      "formSubmittedSuccessfully": "Form Submitted Successfully!",
+      "title": "Thank You for Reaching Out!",
+      "description": "We've received your submission and will get back to you as soon as possible.",
+      "goBackHome": "Go Back Home"
     }
   }
 }

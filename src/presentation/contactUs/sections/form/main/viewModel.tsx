@@ -1,13 +1,13 @@
 import React from "react";
 import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
 import SubmitFormUseCase from "@/domain/forms/usecases";
-import { CONTACT_SALES_ENDPOINT } from "@/domain/forms/constants";
+import { CONTACT_US_ENDPOINT } from "@/domain/forms/constants";
 import { useRouter } from "next/navigation";
 import LocaleContext from "@/presentation/common/localeProvider/client/context";
 
 export interface ViewModel {
-  handleSubmit: (event: React.FormEvent<HTMLFormElement>) => void;
   loading: boolean;
+  handleSubmit: (event: React.FormEvent<HTMLFormElement>) => void;
 }
 
 export default function useViewModel(): ViewModel {
@@ -25,13 +25,10 @@ export default function useViewModel(): ViewModel {
       }
       try {
         const formData = new FormData(event.currentTarget);
-        const token = await executeRecaptcha("submit_contact_sales_form");
+        const token = await executeRecaptcha("submit_contact_us_form");
         formData.append("captchaToken", token);
         formData.append("submittedAt", new Date().toISOString());
-        const result = await SubmitFormUseCase(
-          CONTACT_SALES_ENDPOINT,
-          formData
-        );
+        const result = await SubmitFormUseCase(CONTACT_US_ENDPOINT, formData);
         if (result) {
           router.push(`/${locale.identifier}/thank-you`);
         } else {
@@ -50,7 +47,7 @@ export default function useViewModel(): ViewModel {
   );
 
   return {
-    handleSubmit,
-    loading
+    loading,
+    handleSubmit
   };
 }

@@ -8,7 +8,8 @@ import FormBlockContainerSectionView from "@/presentation/contactSales/sections/
 import FormSectionView from "@/presentation/contactSales/sections/form/main/view";
 import FormSideSectionView from "@/presentation/contactSales/sections/formSide/view";
 import FooterView from "@/presentation/common/footer/view";
-
+import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
+import { SITE_KEY } from "@/domain/recaptcha/constants";
 export default function View() {
   const { resource: t } = React.useContext(LocaleContext);
 
@@ -17,7 +18,9 @@ export default function View() {
       <BasicHeaderView title={t.home.contactSales} />
       <ContainerView>
         <FormBlockContainerSectionView>
-          <FormSectionView />
+          <GoogleReCaptchaProvider reCaptchaKey={SITE_KEY}>
+            <FormSectionView />
+          </GoogleReCaptchaProvider>
           <FormSideSectionView
             author="Yahya Al Moallim"
             position="IT Specialist"

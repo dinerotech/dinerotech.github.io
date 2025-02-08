@@ -12,7 +12,7 @@ export default function View() {
   return (
     <div className="bg-sky-200/25">
       <div className="mx-auto max-w-7xl px-6 py-16 sm:py-20 lg:px-8">
-        <h2 className="text-3xl font-bold tracking-tight text-sky-900">
+        <h2 className="text-3xl font-bold tracking-tight text-sky-900 leading-tight">
           {t.products.pluginsSection.title}{" "}
         </h2>
         <div className="mt-8 flow-root lg:mt-10">

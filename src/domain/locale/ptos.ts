@@ -285,13 +285,21 @@ export interface LocaleResourcePto {
       lastName: string;
       workEmail: string;
       workPhone: string;
-      company: string;
+      website: string;
       merchant: string;
       merchantLogo: string;
       merchantLogoNote: string;
       message: string;
       letsTalk: string;
       bySubmittingThisFormIAgreeToThe: string;
+    };
+  };
+  thankYou: {
+    contentsSection: {
+      formSubmittedSuccessfully: string;
+      title: string;
+      description: string;
+      goBackHome: string;
     };
   };
 }

@@ -1,10 +1,16 @@
 import LocaleContext from "@/presentation/common/localeProvider/client/context";
 import React from "react";
+import useViewModel from "./viewModel";
 
 export default function View() {
   const { locale, resource: t } = React.useContext(LocaleContext);
+  const { loading, handleSubmit } = useViewModel();
   return (
-    <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">
+    <form
+      method="POST"
+      className="mx-auto mt-16 max-w-xl sm:mt-20"
+      onSubmit={handleSubmit}
+    >
       <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
         <div>
           <label
@@ -123,7 +129,11 @@ export default function View() {
       <div className="mt-10">
         <button
           type="submit"
-          className="block w-full rounded-md bg-sky-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-sky-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+          disabled={loading}
+          className={`
+            block w-full rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs
+            ${loading ? "bg-gray-400 cursor-not-allowed" : "bg-sky-600 hover:bg-sky-500 focus-visible:outline-sky-600"}
+          `}
         >
           {t.contactUs.formSection.letsTalk}
         </button>

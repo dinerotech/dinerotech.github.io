@@ -365,14 +365,21 @@
       "lastName": "اسم العائلة",
       "workEmail": "البريد الإلكتروني للعمل",
       "workPhone": "هاتف العمل",
-      "company": "الشركة",
+      "website": "الموقع الإلكتروني",
       "merchant": "التاجر",
       "merchantLogo": "شعار التاجر",
       "merchantLogoNote": "SVG، PNG، JPG أو JPEG (بحد أقصى 800×400 بكسل).",
-      "website": "الموقع الإلكتروني",
       "message": "الرسالة",
       "letsTalk": "لنتحدث",
       "bySubmittingThisFormIAgreeToThe": "من خلال إرسال هذا النموذج، أوافق على"
+    }
+  },
+  "thankYou": {
+    "contentsSection": {
+      "formSubmittedSuccessfully": "تم إرسال النموذج بنجاح!",
+      "title": "شكرًا لتواصلك معنا!",
+      "description": "لقد استلمنا طلبك وسنقوم بالرد عليك في أقرب وقت ممكن.",
+      "goBackHome": "العودة إلى الصفحة الرئيسية"
     }
   }
 }
