@@ -302,4 +302,19 @@ export interface LocaleResourcePto {
       goBackHome: string;
     };
   };
+  jobs: {
+    heroSection: {
+      title: string;
+      subtitle: string;
+      description: string;
+    };
+    jobListSection: {
+      title: string;
+      tagline: string;
+      role: string;
+      team: string;
+      location: string;
+      noVacancies: string;
+    };
+  };
 }

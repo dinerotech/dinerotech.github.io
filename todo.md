@@ -218,20 +218,24 @@
 
 
 ## 25.02.09
-- jobs                              []
+- jobs                              [DONE]
 - blog                              []
 
 
 ## 25.02.10
+- job page                          []
+- job completion page               []
 - blog                              []
 - developers                        []
 
 
 ## 25.02.11
+- blog                              []
 - developers                        []
 - deployment                        []
 
 ## 25.02.12
+- developers                        []
 - deployment                        []
 
 

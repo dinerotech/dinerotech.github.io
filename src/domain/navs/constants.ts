@@ -13,10 +13,10 @@ export const MAIN_NAV: NavLinkPto[] = [
     identifier: "developers",
     href: "developers"
   },
-  {
-    identifier: "partners",
-    href: "partners"
-  },
+  // {
+  //   identifier: "partners",
+  //   href: "partners"
+  // },
   {
     identifier: "blog",
     href: "blog"

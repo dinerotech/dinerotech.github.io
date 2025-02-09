@@ -1,4 +1,4 @@
-const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+import { sleep } from "../utils";
 
 export default async function SubmitFormUseCase(
   endpoint: string,

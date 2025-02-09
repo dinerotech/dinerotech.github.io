@@ -382,5 +382,20 @@
       "description": "We've received your submission and will get back to you as soon as possible.",
       "goBackHome": "Go Back Home"
     }
+  },
+  "jobs": {
+    "heroSection": {
+      "title": "Our People",
+      "subtitle": "Driven by Passion and Innovation",
+      "description": "At DineroPay, we believe our people are our greatest strength. Together, we create impactful solutions that make a difference."
+    },
+    "jobListSection": {
+      "title": "Join Our Team",
+      "tagline": "Vacancies",
+      "role": "Role",
+      "team": "Team",
+      "location": "Location",
+      "noVacancies": "No Vacancies"
+    }
   }
 }
