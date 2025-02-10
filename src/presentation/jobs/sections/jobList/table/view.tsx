@@ -2,12 +2,12 @@ import React from "react";
 import Link from "next/link";
 import LocaleContext from "@/presentation/common/localeProvider/client/context";
 import useViewModel from "./viewModel";
-import SpinnerView from "@/presentation/jobs/sections/jobList/spinner/view";
+import SpinnerView from "@/presentation/common/spinner/view";
 
 export default function View() {
   const { locale, resource: t } = React.useContext(LocaleContext);
   const { loading, jobs } = useViewModel();
-  console.log(jobs);
+
   return (
     <div className="mt-8 flow-root">
       <div className="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
@@ -34,6 +34,12 @@ export default function View() {
                   >
                     {t.jobs.jobListSection.location}
                   </th>
+                  <th
+                    scope="col"
+                    className="px-4 py-3.5 ltr:text-right rtl:text-left text-sm font-semibold text-gray-900"
+                  >
+                    {t.jobs.jobListSection.postedDate}
+                  </th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200 bg-white">
@@ -41,7 +47,7 @@ export default function View() {
                   <tr className="even:bg-gray-50">
                     <td
                       className="whitespace-nowrap px-4 py-10 text-center text-sm text-gray-500 col-span-3"
-                      colSpan={3}
+                      colSpan={4}
                     >
                       <SpinnerView />
                     </td>
@@ -53,7 +59,7 @@ export default function View() {
                     <tr key={index} className="even:bg-gray-50">
                       <td className="whitespace-nowrap px-4 py-4 text-sm font-semibold">
                         <Link
-                          href={`/${locale.identifier}/jobs/${item.jobId}`}
+                          href={`/${locale.identifier}/job/details?id=${item.jobId}`}
                           className="text-sky-600 hover:text-sky-900"
                         >
                           {item.role}
@@ -65,13 +71,16 @@ export default function View() {
                       <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-500">
                         {item.location}
                       </td>
+                      <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-500 ltr:text-right rtl:text-left">
+                        {item.postedDate}
+                      </td>
                     </tr>
                   ))}
                 {!loading && jobs.length < 1 && (
                   <tr className="even:bg-gray-50">
                     <td
                       className="whitespace-nowrap px-4 py-10 text-center text-sm text-gray-500 col-span-3"
-                      colSpan={3}
+                      colSpan={4}
                     >
                       {t.jobs.jobListSection.noVacancies}
                     </td>

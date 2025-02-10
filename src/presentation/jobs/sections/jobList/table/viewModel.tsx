@@ -1,5 +1,5 @@
 import JobPto from "@/domain/jobs/ptos";
-import GetJobsUseCase from "@/domain/jobs/usecases";
+import { GetJobsUseCase } from "@/domain/jobs/usecases";
 import React from "react";
 
 export interface ViewModel {

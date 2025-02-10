@@ -395,7 +395,30 @@
       "role": "Role",
       "team": "Team",
       "location": "Location",
-      "noVacancies": "No Vacancies"
+      "noVacancies": "No Vacancies",
+      "postedDate": "Posted Date"
+    }
+  },
+  "jobDetails": {
+    "contentsSection": {
+      "aboutCompany": "At DineroPay, we are dedicated to revolutionizing digital payments with secure, seamless, and scalable solutions. Our team is a diverse group of innovators, problem-solvers, and visionaries committed to building financial technology that empowers businesses and individuals alike. We foster a culture of collaboration, excellence, and continuous learning, ensuring that every team member has the opportunity to grow and make a real impact. Join us and be part of a company that values innovation, inclusivity, and forward-thinking solutions.",
+      "onSite": "On-Site",
+      "remote": "Remote"
+    },
+    "formBlockContainerSection": {
+      "title": "Submit Your Resume",
+      "tagline": "Join our talent pool and explore new opportunities."
+    },
+    "formSection": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "workEmail": "Work Email",
+      "workPhone": "Work Phone",
+      "resume": "Upload Resume",
+      "resumeNote": "Accepted formats: PDF (Max. 5MB).",
+      "submit": "Submit Application",
+      "bySubmittingThisFormIAgreeToThe": "By submitting this form, I agree to the",
+      "privacyPolicy": "Privacy Policy"
     }
   }
 }

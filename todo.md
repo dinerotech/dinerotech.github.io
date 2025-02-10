@@ -223,8 +223,8 @@
 
 
 ## 25.02.10
-- job page                          []
-- job completion page               []
+- job page                          [DONE]
+- job completion page               [DONE]
 - blog                              []
 - developers                        []
 

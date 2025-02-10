@@ -314,7 +314,30 @@ export interface LocaleResourcePto {
       role: string;
       team: string;
       location: string;
+      postedDate: string;
       noVacancies: string;
+    };
+  };
+  jobDetails: {
+    contentsSection: {
+      aboutCompany: string;
+      onSite: string;
+      remote: string;
+    };
+    formBlockContainerSection: {
+      title: string;
+      tagline: string;
+    };
+    formSection: {
+      firstName: string;
+      lastName: string;
+      workEmail: string;
+      workPhone: string;
+      resume: string;
+      resumeNote: string;
+      submit: string;
+      bySubmittingThisFormIAgreeToThe: string;
+      privacyPolicy: string;
     };
   };
 }
