@@ -14,9 +14,7 @@ export default function View() {
         <title>Not Found - 404</title>
       </Head>
       <BasicHeaderView title={""} />
-      <ContainerView>
         <ContentsSectionView />
-      </ContainerView>
       <FooterView />
     </main>
   );
