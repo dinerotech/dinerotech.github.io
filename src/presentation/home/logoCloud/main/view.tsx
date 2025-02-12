@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import LocaleContext from "@/presentation/common/localeProvider/client/context";
 import LogoView from "@/presentation/home/logoCloud/logo/view";
 

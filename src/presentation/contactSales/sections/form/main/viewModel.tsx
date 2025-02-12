@@ -46,7 +46,7 @@ export default function useViewModel(): ViewModel {
         setLoading(false);
       }
     },
-    [executeRecaptcha]
+    [executeRecaptcha, router, locale.identifier]
   );
 
   return {

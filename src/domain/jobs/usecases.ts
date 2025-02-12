@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import {
   CONTENTFUL_ACCESS_TOKEN,
   CONTENTFUL_ENVIRONMENT,

@@ -4,7 +4,7 @@ import LogoSVG from "@/assets/svgs/logo03.svg";
 import Image from "next/image";
 import {
   PRODUCT_FOOTER_NAV,
-  SOLUTION_FOOTER_NAV,
+  // SOLUTION_FOOTER_NAV,
   DEVELOPERS_FOOTER_NAV,
   RESOURCES_FOOTER_NAV
 } from "@/domain/navs/constants";

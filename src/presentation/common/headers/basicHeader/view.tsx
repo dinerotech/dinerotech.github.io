@@ -9,7 +9,7 @@ interface ViewProps {
 }
 
 export default function View({ title }: ViewProps) {
-  const { locale, resource: t } = React.useContext(LocaleContext);
+  const { locale } = React.useContext(LocaleContext);
   return (
     <header className="relative inset-x-0 top-0 z-50">
       <nav

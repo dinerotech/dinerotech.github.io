@@ -49,7 +49,7 @@ export default function View() {
                   <span style={{ color: "#569CD6" }}>import</span>{" "}
                   <span style={{ color: "#9CDCFE" }}>dineropay</span>{" "}
                   <span style={{ color: "#D4D4D4" }}>from</span>{" "}
-                  <span style={{ color: "#CE9178" }}>"dineropay"</span>;
+                  <span style={{ color: "#CE9178" }}>&quot;dineropay&quot;</span>;
                   <br />
                   <br />
                   <span style={{ color: "#569CD6" }}>const</span>{" "}
@@ -66,7 +66,7 @@ export default function View() {
                   <span style={{ color: "#9CDCFE" }}>redirectUrl</span>
                   <span style={{ color: "#D4D4D4" }}>:</span>{" "}
                   <span style={{ color: "#CE9178" }}>
-                    "https://callbackurl.com"
+                  &quot;https://callbackurl.com&quot;
                   </span>
                   <span style={{ color: "#D4D4D4" }}>,</span>
                   <br />
@@ -76,7 +76,7 @@ export default function View() {
                   </span>
                   <span style={{ color: "#9CDCFE" }}>apiKey</span>
                   <span style={{ color: "#D4D4D4" }}>:</span>{" "}
-                  <span style={{ color: "#CE9178" }}>"API_KEY"</span>
+                  <span style={{ color: "#CE9178" }}>&quot;API_KEY&quot;</span>
                   <span style={{ color: "#D4D4D4" }}>,</span>
                   <br />
                   <span style={{ color: "#D4D4D4" }}>
@@ -86,7 +86,7 @@ export default function View() {
                   <span style={{ color: "#9CDCFE" }}>failureUrl</span>
                   <span style={{ color: "#D4D4D4" }}>:</span>{" "}
                   <span style={{ color: "#CE9178" }}>
-                    "https://failureurl.com"
+                  &quot;https://failureurl.com&quot;
                   </span>
                   <br />
                   <span style={{ color: "#D4D4D4" }}>&#41;</span>
