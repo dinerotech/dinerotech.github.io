@@ -59,7 +59,8 @@ export default function View() {
                     <tr key={index} className="even:bg-gray-50">
                       <td className="whitespace-nowrap px-4 py-4 text-sm font-semibold">
                         <Link
-                          href={`/${locale.identifier}/job/details?id=${item.jobId}`} target="blank"
+                          href={`/${locale.identifier}/job/details?id=${item.jobId}`}
+                          target="blank"
                           className="text-sky-600 hover:text-sky-900"
                         >
                           {item.role}

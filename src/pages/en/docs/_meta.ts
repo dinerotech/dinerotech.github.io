@@ -12,10 +12,6 @@ const meta = {
     //     typesetting: 'article'
     // }
   },
-  "get-started": {
-    title: "Get Started",
-    type: "page"
-  },
   guides: {
     title: "Guides",
     type: "page"

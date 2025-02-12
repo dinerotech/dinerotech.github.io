@@ -230,11 +230,20 @@
 
 
 ## 25.02.11
-- blog                              []
-- developers                        []
-- deployment                        []
+- blog                              [SKIPPED]
+- developers                        [SKIPPED]
+- deployment                        [SKIPPED]
+
 
 ## 25.02.12
+- fix the old work                  [DONE]
+- 404                               [DONE]
+- deployment                        [DONE]
+- blog                              []
+- developers                        []
+
+
+## 25.02.13
 - developers                        []
 - deployment                        []
 

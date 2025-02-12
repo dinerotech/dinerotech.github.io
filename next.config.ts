@@ -6,6 +6,12 @@ const withNextra = nextra({
   theme: "./src/presentation/theme/view.tsx"
 });
 
+// ✅ Use only the Docs theme
+// const withNextra = nextra({
+//   theme: "nextra-theme-docs", // ✅ Forces the use of the Docs theme
+//   themeConfig: "./src/presentation/layouts/docs/config.tsx" // Optional: Path to your theme config
+// });
+
 const nextConfig: NextConfig = {
   /* config options here */
   output: "export",

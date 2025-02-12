@@ -1,3 +1,3 @@
 # Getting Started
 
-[Guides](/docs/guides)
+[Guides](/en/docs/guides)

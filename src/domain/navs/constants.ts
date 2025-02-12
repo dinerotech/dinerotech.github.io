@@ -76,24 +76,24 @@ export const SOLUTION_FOOTER_NAV: NavLinkPto[] = [
 export const DEVELOPERS_FOOTER_NAV: NavLinkPto[] = [
   {
     identifier: "getStarted",
-    href: "developers#get-started"
+    href: "docs#get-started"
   },
   {
     identifier: "guides",
-    href: "developers#guides"
+    href: "docs#guides"
   },
   {
     identifier: "plugins",
-    href: "developers#plugins"
+    href: "docs#plugins"
   },
   {
     identifier: "integration",
-    href: "developers#integration"
-  },
-  {
-    identifier: "APIReference",
-    href: "api-reference"
+    href: "docs#integration"
   }
+  // {
+  //   identifier: "APIReference",
+  //   href: "api-reference"
+  // }
 ];
 
 export const RESOURCES_FOOTER_NAV: NavLinkPto[] = [

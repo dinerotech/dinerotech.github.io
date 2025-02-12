@@ -340,4 +340,10 @@ export interface LocaleResourcePto {
       privacyPolicy: string;
     };
   };
+  notFound: {
+    title: string;
+    subtitle: string;
+    goBackHome: string;
+    contactUs: string;
+  };
 }

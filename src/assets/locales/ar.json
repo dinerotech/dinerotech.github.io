@@ -419,5 +419,11 @@
       "bySubmittingThisFormIAgreeToThe": "بتقديم هذا النموذج، أوافق على",
       "privacyPolicy": "سياسة الخصوصية"
     }
+  },
+  "notFound": {
+    "title": "الصفحة غير موجودة",
+    "subtitle": "عذرًا، لم نتمكن من العثور على الصفحة التي تبحث عنها.",
+    "goBackHome": "العودة إلى الصفحة الرئيسية",
+    "contactUs": "اتصل بنا"
   }
 }
