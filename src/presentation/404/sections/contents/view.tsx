@@ -21,7 +21,10 @@ export default function View() {
           >
             {t.notFound.goBackHome}
           </a>
-          <a href={`/${locale.identifier}/contact-us`} className="text-sm font-semibold text-gray-900">
+          <a
+            href={`/${locale.identifier}/contact-us`}
+            className="text-sm font-semibold text-gray-900"
+          >
             {t.notFound.contactUs}{" "}
             <span aria-hidden="true">
               {locale.direction === "ltr" ? "→" : "←"}{" "}
