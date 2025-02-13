@@ -115,6 +115,7 @@ export interface LocaleResourcePto {
     blogSection: {
       title: string;
       tagline: string;
+      cta: string;
       categories: {
         marketing: string;
         developers: string;
@@ -345,5 +346,12 @@ export interface LocaleResourcePto {
     subtitle: string;
     goBackHome: string;
     contactUs: string;
+  };
+  blog: {
+    heroSection: {
+      tagline: string;
+      title: string;
+      description: string;
+    };
   };
 }

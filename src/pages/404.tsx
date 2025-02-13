@@ -1,3 +1,4 @@
+import "@/assets/css/globals.css";
 import React from "react";
 import View from "@/presentation/404/main/view";
 

@@ -5,10 +5,7 @@ import JobListTableView from "@/presentation/jobs/sections/jobList/table/view";
 export default function View() {
   const { resource: t } = React.useContext(LocaleContext);
   return (
-    <div
-      id="ceo-letter"
-      className="overflow-hidden bg-slate-100 py-24 sm:py-32"
-    >
+    <div id="job-list" className="overflow-hidden bg-slate-100 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mb-8 md:mb-10 text-center">
           <p className="text-base/7 font-semibold text-sky-600">

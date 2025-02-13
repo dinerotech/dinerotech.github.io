@@ -1,4 +1,4 @@
-export default {
+const meta = {
   index: {
     title: "Home",
     type: "page",
@@ -13,3 +13,5 @@ export default {
     href: null
   }
 };
+
+export default meta;

@@ -132,7 +132,8 @@
         "marketing": "Marketing",
         "developers": "Developers",
         "management": "Management"
-      }
+      },
+      "cta": "Learn more"
     },
     "ctaSection": {
       "title": "Ready to Get Started?",
@@ -426,5 +427,12 @@
     "subtitle": "Sorry, we couldn’t find the page you’re looking for.",
     "goBackHome": "Go back home",
     "contactUs": "Contact Us"
+  },
+  "blog": {
+    "heroSection": {
+      "tagline": "Stay Informed",
+      "title": "Practical Insights on Payments & Tech",
+      "description": "Actionable trends, expert tips, and industry updates to keep you ahead."
+    }
   }
 }
