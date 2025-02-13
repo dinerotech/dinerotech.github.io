@@ -19,6 +19,13 @@ const nextConfig: NextConfig = {
   i18n: {
     locales: LOCALE_IDENS,
     defaultLocale: DEFAULT_LOCALE_IDEN
+  },
+  webpack: (config) => {
+    config.module.rules.push({
+      test: /_meta\.ts$/,
+      use: "null-loader" // ✅ Ignores `_meta.ts` from Next.js page processing
+    });
+    return config;
   }
 };
 
