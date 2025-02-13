@@ -240,12 +240,18 @@
 - 404                               [DONE]
 - deployment                        [DONE]
 - blog                              []
-- developers                        []
 
 
 ## 25.02.13
-- developers                        []
-- deployment                        []
+- blog                              []
+- home page blog post               []
+
+## 25.02.14
+- developers:
+    - design                        []
+    - architecture                  []
+    - contents                      []
+
 
 
 ## Checklist:
